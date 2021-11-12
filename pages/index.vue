@@ -4,14 +4,10 @@
     <BannerOne />
     <ServiceOne />
     <FunFact />
-    <CTAThree />
-    <CTATwo />
-    <CTAOne />
-    <Pricing />
-    <Testimonial />
-    <ClientsLogo />
-    <FunFact />
+    <CTAThree />   
     <BlogHome />
+    <CTAOne />
+    <ClientsLogo />
     <Footer />
   </div>
 </template>
