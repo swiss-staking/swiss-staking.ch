@@ -1,18 +1,19 @@
 @font-face {
-  font-family: 'nonid-icon';
-  src:  url('fonts/nonid-icon.eot?10usmn');
-  src:  url('fonts/nonid-icon.eot?10usmn#iefix') format('embedded-opentype'),
-    url('fonts/nonid-icon.ttf?10usmn') format('truetype'),
-    url('fonts/nonid-icon.woff?10usmn') format('woff'),
-    url('fonts/nonid-icon.svg?10usmn#nonid-icon') format('svg');
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?o701hm');
+  src:  url('fonts/icomoon.eot?o701hm#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?o701hm') format('truetype'),
+    url('fonts/icomoon.woff?o701hm') format('woff'),
+    url('fonts/icomoon.svg?o701hm#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
-[class^="nonid-icon-"], [class*=" nonid-icon-"] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'nonid-icon' !important;
-  speak: none;
+  font-family: 'icomoon' !important;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -24,27 +25,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.nonid-icon-human-resources:before {
-  content: "\e900";
-}
-.nonid-icon-training:before {
-  content: "\e901";
-}
-.nonid-icon-strategy:before {
-  content: "\e902";
-}
-.nonid-icon-left-arrow:before {
+.icon-office:before {
   content: "\e903";
 }
-.nonid-icon-visualization:before {
-  content: "\e904";
+.icon-lifebuoy:before {
+  content: "\e941";
 }
-.nonid-icon-target:before {
-  content: "\e905";
+.icon-clock:before {
+  content: "\e94e";
 }
-.nonid-icon-presentation:before {
-  content: "\e906";
+.icon-rocket:before {
+  content: "\e9a5";
 }
-.nonid-icon-laptop:before {
-  content: "\e907";
+.icon-meter:before {
+  content: "\e9a6";
+}
+.icon-cloud-check:before {
+  content: "\e9c4";
 }

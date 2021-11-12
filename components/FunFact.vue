@@ -6,7 +6,7 @@
         <img src="/images/banner-icon-1-6.png" alt="Awesome Image" class="bubble-4" />
         <div class="container">
             <div class="block-title text-center">
-                <div class="block-title__text"><span>Over 2200 projects</span> <br> <span>completed</span></div><!-- /.block-title__text -->
+               <!-- /.block-title__text -->
             </div><!-- /.block-title -->
             <div class="fun-fact-one__box-wrapper">
                 <div class="fun-fact-one__single">
@@ -15,7 +15,7 @@
                             <countTo :startVal='0' :endVal='startCounter ? 4789 : 0' :duration='3000'></countTo>
                         </h3><!-- /.fun-fact-one__title -->
                         <p class="fun-fact-one__text">
-                            projects
+                            Staking Value $
                         </p><!-- /.fun-fact-one__text -->
                     </div><!-- /.inner-block -->
                 </div><!-- /.fun-fact-one__single -->
@@ -25,7 +25,7 @@
                           <countTo :startVal='0' :endVal='startCounter ? 6400 : 0' :duration='3000'></countTo>
                         </h3><!-- /.fun-fact-one__title -->
                         <p class="fun-fact-one__text">
-                            customers
+                            days of experience
                         </p><!-- /.fun-fact-one__text -->
                     </div><!-- /.inner-block -->
                 </div><!-- /.fun-fact-one__single -->
@@ -35,7 +35,7 @@
                             <countTo :startVal='0' :endVal='startCounter ? 960 : 0' :duration='3000'></countTo>
                         </h3><!-- /.fun-fact-one__title -->
                         <p class="fun-fact-one__text">
-                            success
+                            clients
                         </p><!-- /.fun-fact-one__text -->
                     </div><!-- /.inner-block -->
                 </div><!-- /.fun-fact-one__single -->
@@ -45,7 +45,7 @@
                             <countTo :startVal='0' :endVal='startCounter ? 448 : 0' :duration='3000'></countTo>
                         </h3><!-- /.fun-fact-one__title -->
                         <p class="fun-fact-one__text">
-                            awards
+                            nodes running
                         </p><!-- /.fun-fact-one__text -->
                     </div><!-- /.inner-block -->
                 </div><!-- /.fun-fact-one__single -->

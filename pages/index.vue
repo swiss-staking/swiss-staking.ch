@@ -3,6 +3,7 @@
     <NavOne />
     <BannerOne />
     <ServiceOne />
+    <FunFact />
     <CTAThree />
     <CTATwo />
     <CTAOne />

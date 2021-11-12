@@ -526,8 +526,8 @@ hr.style-one {
   left: 35%;
 }
 .banner-one .bubble-3 {
-  top: 60%;
-  left: 15%;
+  top: 70%;
+  left: 75%;
 }
 .banner-one .bubble-4 {
   bottom: 10%;
@@ -543,8 +543,9 @@ hr.style-one {
 }
 .banner-one__moc {
   position: absolute;
-  top: 245px;
-  right: 0;
+  top: 380px;
+  right: 100px;
+
 }
 .banner-one .block-title {
   margin-bottom: 35px;
@@ -1408,8 +1409,8 @@ hr.style-one {
 */
 .fun-fact-one {
   position: relative;
-  padding-top: 110px;
-  padding-bottom: 120px;
+  padding-top: 0px;
+  padding-bottom: 20px;
 }
 .fun-fact-one [class*=bubble-] {
   position: absolute;
@@ -2263,7 +2264,7 @@ hr.style-one {
   margin-bottom: 40px;
 }
 .cta-three__text {
-  font-size: 20px;
+  font-size: 16px;
   color: #666E82;
   line-height: 40px;
   margin: 0;
@@ -2275,7 +2276,7 @@ hr.style-one {
   margin-top: 45px;
 }
 .cta-three__list-item {
-  font-size: 18px;
+  font-size: 16px;
   position: relative;
   color: #666E82;
   padding-left: 30px;
@@ -2400,10 +2401,10 @@ hr.style-one {
 }
 
 [class*=col-]:nth-child(1) .service-one__icon {
-  color: #5DD8D3;
+  color: #f58337;
 }
 [class*=col-]:nth-child(1) .service-one__single:hover {
-  background-color: #5DD8D3;
+  background-color: #f58337;
 }
 [class*=col-]:nth-child(1) .service-one__single:hover .service-one__icon,
 [class*=col-]:nth-child(1) .service-one__single:hover .service-one__title a,
@@ -2425,10 +2426,10 @@ hr.style-one {
 }
 
 [class*=col-]:nth-child(2) .service-one__icon {
-  color: #9364D4;
+  color: #447bf1;
 }
 [class*=col-]:nth-child(2) .service-one__single:hover {
-  background-color: #9364D4;
+  background-color: #447bf1;
 }
 [class*=col-]:nth-child(2) .service-one__single:hover .service-one__icon,
 [class*=col-]:nth-child(2) .service-one__single:hover .service-one__title a,
@@ -2450,10 +2451,10 @@ hr.style-one {
 }
 
 [class*=col-]:nth-child(3) .service-one__icon {
-  color: #EE539B;
+  color: #37a01c;
 }
 [class*=col-]:nth-child(3) .service-one__single:hover {
-  background-color: #EE539B;
+  background-color: #37a01c;
 }
 [class*=col-]:nth-child(3) .service-one__single:hover .service-one__icon,
 [class*=col-]:nth-child(3) .service-one__single:hover .service-one__title a,
@@ -2475,10 +2476,10 @@ hr.style-one {
 }
 
 [class*=col-]:nth-child(4) .service-one__icon {
-  color: #FDDD6E;
+  color: #C71F2C;
 }
 [class*=col-]:nth-child(4) .service-one__single:hover {
-  background-color: #FDDD6E;
+  background-color: #C71F2C;
 }
 [class*=col-]:nth-child(4) .service-one__single:hover .service-one__icon,
 [class*=col-]:nth-child(4) .service-one__single:hover .service-one__title a,
