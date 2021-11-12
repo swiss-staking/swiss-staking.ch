@@ -1,0 +1,36 @@
+<template>
+  <section class="cta-three">
+      <img src="/images/banner-icon-1-6.png" alt="Awesome Image" class="bubble-1" />
+      <img src="/images/banner-icon-1-4.png" alt="Awesome Image" class="bubble-2" />
+      <img src="/images/banner-icon-1-5.png" alt="Awesome Image" class="bubble-3" />
+      <div class="container">
+          <img src="/images/cta-moc-1-1.png" alt="Awesome Image" class="cta-three__moc" />
+          <div class="row no-gutters justify-content-end">
+              <div class="col-lg-6 col-md-12 col-sm-12 d-flex">
+                  <div class="cta-three__content my-auto">
+                      <div class="block-title">
+                          <div class="block-title__text"><span>Powerful tools for your</span> <br> <span>customers</span></div><!-- /.block-title__text -->
+                      </div><!-- /.block-title -->
+                      <p class="cta-three__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p><!-- /.cta-three__text -->
+                      <ul class="cta-three__list">
+                          <li class="cta-three__list-item"><i class="fa fa-check"></i>Refresing to get such a personal touch. </li>
+                          <li class="cta-three__list-item"><i class="fa fa-check"></i>Duis aute irure dolor in reprehenderit in voluptate.</li>
+                          <li class="cta-three__list-item"><i class="fa fa-check"></i>Velit esse cillum dolore eu fugiat nulla pariatur.</li>
+                      </ul><!-- /.cta-three__list -->
+                      <a href="#" class="cta-three__btn">Learn More</a>
+                  </div><!-- /.cta-three__content -->
+              </div><!-- /.col-lg-6 -->
+          </div><!-- /.row -->
+      </div><!-- /.container -->
+  </section>
+</template>
+
+<script>
+    export default {
+        name: "CTAThree"
+    }
+</script>
+
+<style scoped>
+
+</style>

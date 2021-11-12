@@ -1,0 +1,59 @@
+
+export default {
+  mode: 'universal',
+  /*
+  ** Headers of the page
+  */
+  head: {
+    title: process.env.npm_package_name || '',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+    ],
+    link: [
+      { rel: 'icon', type: 'image/png', sizes:'16x16', href: '/images/favicon/favicon-16x16.png' },
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" },
+      { rel: "stylesheet", href: "/css/bootstrap.min.css" },
+      { rel: "stylesheet", href: "/css/font-awesome.min.css" },
+      { rel: "stylesheet", href: "/css/animate.css" },
+      { rel: "stylesheet", href: "/plugins/nonid-icon/style.css" },
+      { rel: "stylesheet", href: "/css/style.css" },
+      { rel: "stylesheet", href: "/css/responsive.css" }
+    ]
+  },
+  /*
+  ** Customize the progress-bar color
+  */
+  loading: { color: '#FF8257', height: '4px' },
+  /*
+  ** Global CSS
+  */
+  css: [
+  ],
+  /*
+  ** Plugins to load before mounting the App
+  */
+  plugins: [
+  ],
+  /*
+  ** Nuxt.js dev-modules
+  */
+  buildModules: [
+  ],
+  /*
+  ** Nuxt.js modules
+  */
+  modules: [
+  ],
+  /*
+  ** Build configuration
+  */
+  build: {
+    /*
+    ** You can extend webpack config here
+    */
+    extend (config, ctx) {
+    }
+  }
+}
