@@ -2,12 +2,11 @@
   <div>
     <NavOne />
     <BannerOne />
-    <ServiceOne />
     <FunFact />
+    <ServiceOne />
     <CTAThree />   
     <BlogHome />
     <CTAOne />
-    <ClientsLogo />
     <Footer />
   </div>
 </template>

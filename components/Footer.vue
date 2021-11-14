@@ -22,10 +22,10 @@
                   <div class="col-lg-3 col-md-6 col-sm-12">
                       <div class="footer-widget footer-widget--about-widget">
                           <a href="index.html" class="footer-widget__footer-logo"><img src="images/logo-1-1.png" alt="Awesome Image" /></a>
-                          <p>888 999 0000</p>
-                          <p>needhelp@nonid.com</p>
-                          <p>855 road, broklyn street <br>
-                              new york 600</p>
+                            <p>UID: CHE-105.648.628 </p>
+                            <p>CH-iD: CH-100-3024094-6</p>
+                          <p>info@swiss-staking.ch</p>
+                          <p>6045, Meggen, Switzerland <br></p>
                       </div><!-- /.footer-widget -->
                   </div><!-- /.col-lg-3 -->
                   <div class="col-lg-2 col-md-6 col-sm-12">
@@ -83,7 +83,7 @@
       </div><!-- /.site-footer__main-footer -->
       <div class="site-footer__bottom-footer text-center">
           <div class="container">
-              <p>&copy; copyright 2020 by <a href="#">Layerdrops.com</a></p>
+              <p>&copy; copyright 2021 by <a href="#">Swiss Staking</a></p>
           </div><!-- /.container -->
       </div><!-- /.site-footer__bottom-footer -->
           </footer>

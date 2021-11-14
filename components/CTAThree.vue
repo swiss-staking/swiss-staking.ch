@@ -4,7 +4,7 @@
       <img src="/images/banner-icon-1-4.png" alt="Awesome Image" class="bubble-2" />
       <img src="/images/banner-icon-1-5.png" alt="Awesome Image" class="bubble-3" />
       <div class="container">
-          <img src="/images/phone2.png" alt="Awesome Image" class="cta-three__moc" />
+          <img src="/images/Bild4.png" alt="Awesome Image" class="cta-three__moc" />
           <div class="row no-gutters justify-content-end">
               <div class="col-lg-6 col-md-12 col-sm-12 d-flex">
                   <div class="cta-three__content my-auto">

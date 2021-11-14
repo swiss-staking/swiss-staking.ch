@@ -79,13 +79,23 @@
                       --><a class="next" href="#"><i class="fa fa-arrow-right"></i></a>
                   </div><!-- /.blog-post-pagination -->
               </div><!-- /.container -->
+          
+
+          
           </section>
+          
 </template>
 
 <script>
+
     export default {
         name: "Blog"
     }
+
+
+    
+
+
 </script>
 
 <style scoped>

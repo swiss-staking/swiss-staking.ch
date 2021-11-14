@@ -7,14 +7,14 @@
                         <div class="row no-gutters">
                             <div class="col-lg-6">
                                 <div class="cta-one__image">
-                                    <img src="/images/cta-1-1.png" alt="Awesome Image" />
+                                    <img src="/images/swisscom.png" alt="Awesome Image" />
                                 </div><!-- /.cta-one__image -->
                                 <div class="cta-one__color-box cta-one__color-box-1"></div><!-- /.cta-one__color-box -->
                             </div><!-- /.col-lg-6 -->
                             <div class="col-lg-6">
                                 <div class="cta-one__color-box cta-one__color-box-2"></div><!-- /.cta-one__color-box -->
                                 <div class="cta-one__image">
-                                    <img src="/images/cta-1-2.png" alt="Awesome Image" />
+                                    <img src="/images/walter.png" alt="Awesome Image" />
                                 </div><!-- /.cta-one__image -->
                             </div><!-- /.col-lg-6 -->
                         </div><!-- /.row no-gutters -->
@@ -23,15 +23,14 @@
                 <div class="col-lg-6 d-flex">
                     <div class="cta-one__content my-auto">
                         <div class="block-title">
-                            <div class="block-title__text"><span>Marketing experts are</span> <br> <span>ready to help you</span></div><!-- /.block-title__text -->
+                            <div class="block-title__text"><span>Our institutional clients.</span> <br> <span>You're next.</span></div><!-- /.block-title__text -->
                         </div><!-- /.block-title -->
-                        <p class="cta-one__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p><!-- /.cta-one__text -->
+                        <p class="cta-one__text">As a dedicated staking operator, we are fully aligned with the interest of our clients. With our own digital assets locked up, we are fully engaged towards the success of each of the protocols where we operate.</p><!-- /.cta-one__text -->
                         <ul class="cta-one__list">
-                            <li class="cta-one__list-item"><i class="fa fa-check"></i>Refresing to get such a personal touch. </li>
-                            <li class="cta-one__list-item"><i class="fa fa-check"></i>Duis aute irure dolor in reprehenderit in voluptate.</li>
-                            <li class="cta-one__list-item"><i class="fa fa-check"></i>Velit esse cillum dolore eu fugiat nulla pariatur.</li>
+                            <li class="cta-one__list-item"><i class="fa fa-check"></i>Proven track record in staking protocols, Oracles and DeFi.</li>
+                            <li class="cta-one__list-item"><i class="fa fa-check"></i>High availability and responsiveness.</li>
+                            <li class="cta-one__list-item"><i class="fa fa-check"></i>Building web3 and reenabling privacy.</li>
                         </ul><!-- /.cta-one__list -->
-                        <a href="#" class="cta-one__btn">Get Started</a>
                     </div><!-- /.cta-one__content -->
                 </div><!-- /.col-lg-6 -->
             </div><!-- /.row -->

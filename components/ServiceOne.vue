@@ -2,7 +2,7 @@
   <section class="service-one" id="services">
       <div class="container">
           <div class="block-title text-center">
-              <div class="block-title__text"><span>Our keys to </span> <br> <span> performance</span></div><!-- /.block-title__text -->
+              <div class="block-title__text"><span>Cutting edge tech.</span> <br> <span> Combined. Ever-expanding.</span></div><!-- /.block-title__text -->
           </div><!-- /.block-title -->
           <div class="row">
               <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">

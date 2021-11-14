@@ -1,12 +1,13 @@
 <template>
   <section class="banner-one" id="home">
-            
+            <!-- /.block-title
               <img src="/images/banner-icon-1-1.png" alt="Awesome Image" class="bubble-1" />
               <img src="/images/banner-icon-1-3.png" alt="Awesome Image" class="bubble-2" />
               <img src="/images/banner-icon-1-2.png" alt="Awesome Image" class="bubble-3" />
               <img src="/images/banner-icon-1-4.png" alt="Awesome Image" class="bubble-4" />
               <img src="/images/banner-icon-1-5.png" alt="Awesome Image" class="bubble-5" />
               <img src="/images/banner-icon-1-6.png" alt="Awesome Image" class="bubble-6" />
+               -->
               <!-- /.block-title
           	  <img src="/images/cosmos.png" alt="Awesome Image" class="bubble-1" />
               <img src="/images/avalanche.png" alt="Awesome Image" class="bubble-2" />
