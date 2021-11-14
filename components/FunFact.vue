@@ -9,7 +9,7 @@
                 <div class="fun-fact-one__single">
                     <div class="inner-block">
                         <h3 class="fun-fact-one__title counter">
-                            <countTo :startVal='0' :endVal='startCounter ? 21613781 : 0' :duration='3000'></countTo>
+                            <countTo :startVal='0' :endVal='startCounter ? staking_value : 0' :duration='3000'></countTo>
                         </h3><!-- /.fun-fact-one__title -->
                         <p class="fun-fact-one__text">
                             Staking Value $
@@ -19,7 +19,7 @@
                 <div class="fun-fact-one__single">
                     <div class="inner-block">
                         <h3 class="fun-fact-one__title counter">
-                          <countTo :startVal='0' :endVal='something()' :duration='3000' :autoplay='true'></countTo>
+                          <countTo v-if="hasData" :startVal='0' :endVal='startCounter ? staking_clients : 0' :duration='3000'>></countTo>
                         </h3><!-- /.fun-fact-one__title -->
                         <p class="fun-fact-one__text">
                             clients
@@ -66,9 +66,82 @@
       data() {
         return{
           startCounter: false,
-          test : null
-        }
+          hasData: false       }
       },
+      async mounted() {
+    try {
+
+      //COMPUTE STAKING VALUE
+      const xtz_staked = await fetch("https://api.baking-bad.org/v1/bakers/tz1hAYfexyzPGG6RhZZMpDvAHifubsbb6kgn")
+      .then(xtz_staked => xtz_staked.json())
+      .then(json => this.xtz_staked = json.stakingBalance);
+      
+      this.atom_staked = 550000
+      this.avax_staked = 7000
+      this.osmosis_staked = 100000
+      this.juno_staked = 600000
+      this.dvpn_staked = 100000000
+      this.band_staked = 170000
+
+      const xtz_usd = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=tezos&vs_currencies=usd")
+      .then(xtz_usd => xtz_usd.json())
+      .then(json => this.xtz_usd = json.tezos['usd']);
+
+      const atom_usd = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=cosmos&vs_currencies=usd")
+      .then(atom_usd => atom_usd.json())
+      .then(json => this.atom_usd = json.cosmos['usd']);
+      
+      const avax_usd = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=avalanche-2&vs_currencies=usd")
+      .then(avax_usd => avax_usd.json())
+      .then(json => this.avax_usd = json['avalanche-2']['usd']);
+
+      const osmo_usd = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=osmosis&vs_currencies=usd")
+      .then(osmo_usd => osmo_usd.json())
+      .then(json => this.osmo_usd = json.osmosis['usd']);
+      
+      const juno_usd = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=juno-network&vs_currencies=usd")
+      .then(juno_usd => juno_usd.json())
+      .then(json => this.juno_usd = json['juno-network']['usd']);
+
+      const dvpn_usd = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=sentinel&vs_currencies=usd")
+      .then(dvpn_usd => dvpn_usd.json())
+      .then(json => this.dvpn_usd = json.sentinel['usd']);
+
+      const band_usd = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=band-protocol&vs_currencies=usd")
+      .then(band_usd => band_usd.json())
+      .then(json => this.band_usd = json['band-protocol']['usd']);
+      console.log(band_usd)
+      
+      console.log(this)
+      this.staking_value = (this.xtz_staked*this.xtz_usd + this.atom_staked*this.atom_usd + this.avax_staked*this.avax_usd + this.osmosis_staked*this.osmo_usd + this.juno_staked*this.juno_usd + this.dvpn_staked*this.dvpn_usd +  this.band_staked * this.band_usd) 
+
+      //COMPUTE CLIENTS
+      const delegators = await fetch("https://api.tzkt.io/v1/accounts/tz1hAYfexyzPGG6RhZZMpDvAHifubsbb6kgn/delegators")
+      .then(delegators => delegators.json())
+      console.log(delegators)
+      this.xtz_clients = Object.keys(delegators).length;
+
+      this.atom_client = 1134
+      this.osmo_client = 197
+      this.juno_client = 350
+      this.dvpn_client = 6
+      this.band_client = 200
+
+      this.staking_clients = (this.atom_client + this.xtz_clients + this.osmo_client + this.juno_client + this.dvpn_client + this.band_client)
+
+
+
+
+
+
+
+
+      this.hasData = true
+  
+    } catch (err) {
+      this.error = err
+    }
+  },
       methods: {
         async onVisibilityChange (isVisible) {
           if (isVisible){
@@ -79,21 +152,6 @@
 
         },
         
-        something() {
-              
-        //console.log(p1)
-        //console.log(test)
-        //var test = await calculate_staking_metrics().then((value) => {
-        var delegators = {}
-        fetch("https://api.baking-bad.org/v1/bakers/tz1hAYfexyzPGG6RhZZMpDvAHifubsbb6kgn")
-        .then(response => response.json())
-        .then(json => this.tezos = json.stakingBalance);
-        delegators.tezos = this.tezos
-        delegators.cosmos = 100
-
-        return delegators.tezos
-       
-        },
         days(){
          return calculate_days()
         },

@@ -35,18 +35,19 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    
+     '~plugins/vue-simple-alert.js'
   ],
   /*
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    //'@nuxtjs/vuetify'
   ],
   /*
   ** Nuxt.js modules
   */
   modules: [
-    'bootstrap-vue/nuxt'
+    
   ],
   /*
   ** Build configuration

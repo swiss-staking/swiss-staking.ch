@@ -5,7 +5,7 @@
               <!-- Brand and toggle get grouped for better mobile display -->
               <div class="logo-box clearfix">
                   <nuxt-link class="navbar-brand" to="/">
-                      <img src="/images/logo-1-1.png" class="main-logo" alt="Awesome Image" />
+                      <img src="/images/logo2.png" class="main-logo" alt="Awesome Image" />
                   </nuxt-link>
                   <button @click="mobileToggle = !mobileToggle" class="menu-toggler" data-target=".header-one .main-navigation">
                       <span class="fa fa-bars"></span>
