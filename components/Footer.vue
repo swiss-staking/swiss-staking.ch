@@ -1,19 +1,10 @@
 <template>
   <div>
   <footer class="site-footer">
-      <img src="/images/banner-icon-1-1.png" alt="Awesome Image" class="bubble-1" />
-      <img src="/images/banner-icon-1-3.png" alt="Awesome Image" class="bubble-2" />
-      <img src="/images/banner-icon-1-2.png" alt="Awesome Image" class="bubble-3" />
-      <img src="/images/banner-icon-1-4.png" alt="Awesome Image" class="bubble-4" />
+
       <div class="site-footer__subscribe">
           <div class="container">
-              <div class="block-title text-center">
-                  <div class="block-title__text"><span>Subscribe our newsletter</span> <br> <span>to get new updates</span></div><!-- /.block-title__text -->
-              </div><!-- /.block-title -->
-              <form action="#" class="site-footer__subscribe-form">
-                  <input type="text" name="email" placeholder="Enter your email">
-                  <button type="submit">Get Started</button>
-              </form><!-- /.subscribe-form -->
+              <p>Team</p>
           </div><!-- /.container -->
       </div><!-- /.site-footer__subscribe -->
       <div class="site-footer__main-footer">
@@ -25,7 +16,7 @@
                             <p>UID: CHE-105.648.628 </p>
                             <p>CH-iD: CH-100-3024094-6</p>
                           <p>info@swiss-staking.ch</p>
-                          <p>6045, Meggen, Switzerland <br></p>
+                          <p><br></p>
                       </div><!-- /.footer-widget -->
                   </div><!-- /.col-lg-3 -->
                   <div class="col-lg-2 col-md-6 col-sm-12">
@@ -34,7 +25,7 @@
                               Explore
                           </h3><!-- /.footer-widget__title -->
                           <ul class="footer-widget__link-list">
-                              <li><a href="#">About</a></li>
+                              <li><a href="#">Bitcoin community</a></li>
                               <li><a href="#">Our Team</a></li>
                               <li><a href="#">Features</a></li>
                               <li><a href="#">Blog</a></li>
