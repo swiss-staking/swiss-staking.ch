@@ -2,7 +2,6 @@
   <div>
     <NavOne />
     <BannerOne />
-    <FunFact />
     <ServiceOne />
     <CTAThree />   
     <BlogHome />
@@ -21,12 +20,10 @@
   import Pricing from "../components/Pricing";
   import Testimonial from "../components/Testimonial";
   import ClientsLogo from "../components/ClientsLogo";
-  import FunFact from "../components/FunFact";
   import BlogHome from "../components/BlogHome";
   export default {
     components: {
       BlogHome,
-      FunFact,
       ClientsLogo,
       Testimonial,
       Pricing,

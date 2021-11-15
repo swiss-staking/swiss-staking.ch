@@ -19,7 +19,8 @@
     "vue-count-to": "^1.0.13",
     "vue-js-modal": "^2.0.1",
     "vue-observe-visibility": "^0.4.6",
-    "vue-simple-alert": "^1.1.1"
+    "vue-simple-alert": "^1.1.1",
+    "vue-simple-icons": "^4.7.0"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.12.1"

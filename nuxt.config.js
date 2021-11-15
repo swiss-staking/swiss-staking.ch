@@ -35,7 +35,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-     '~plugins/vue-simple-alert.js'
+     '~plugins/vue-simple-alert.js', 
   ],
   /*
   ** Nuxt.js dev-modules

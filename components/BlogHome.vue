@@ -1,5 +1,5 @@
 <template>
-  <section class="blog-one" id="blog">
+  <section class="blog-one" id="networks">
         <div class="container">
             <div class="block-title text-center">
                 <div class="block-title__text"><span>Evolutionary, revolutionary, and</span> <br> <span>everything in-between.</span></div><!-- /.block-title__text -->
@@ -173,7 +173,7 @@
                             <p class="blog-one__text">Nym is developing the next generation infrastructure to prevent data leakage by protecting every packet’s metadata at the network and application layers.</p>
                             </div>
                             <div class="blog__footer"><a class="blog-one__dev">Testnet</a>
-                            <a v-on:click="greet" target="_blank" class="blog-one__btn">N/A</a>                           
+                            <a target="_blank" class="blog-one__btn">N/A</a>                           
                            
                             </div>
                                      

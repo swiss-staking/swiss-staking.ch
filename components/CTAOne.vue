@@ -1,5 +1,5 @@
 <template>
-  <section class="cta-one">
+  <section class="cta-one" id="clients">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">

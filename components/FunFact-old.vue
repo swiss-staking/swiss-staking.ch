@@ -29,7 +29,7 @@
                 <div class="fun-fact-one__single">
                     <div class="inner-block">
                         <h3 class="fun-fact-one__title counter">
-                            <countTo :startVal='0' :endVal='startCounter ? days() : 0' :duration='3000'></countTo>
+                            <countTo :startVal='0' :endVal='startCounter ? 1 : 0' :duration='3000'></countTo>
                         </h3><!-- /.fun-fact-one__title -->
                         <p class="fun-fact-one__text">
                             days of experience
@@ -54,7 +54,6 @@
 <script>
   import countTo from 'vue-count-to';
   import { ObserveVisibility } from 'vue-observe-visibility'
-  import {calculate_staking_metrics,calculate_days} from '../middleware/coins.js'
 
 
     export default {
@@ -150,20 +149,7 @@
             this.startCounter = true;
           }
 
-        },
-        
-        days(){
-         return calculate_days()
-        },
-        async staking_clients(){
-        //const response = await start_trigger()
-        return 1
-        },
-        staking_value(){
-          var a = calculate_staking_metrics()
-
-          console.log("a",a)
-      },
+        }
     }
     }
 

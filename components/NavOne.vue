@@ -16,28 +16,20 @@
                   <ul class=" navigation-box one-page-scroll-menu ">
                       <li class="current scrollToLink">
                           <a href="#home">Home</a>
-                          <ul class="sub-menu">
-                              <li><nuxt-link to="/">Home One</nuxt-link></li>
-                              <li><nuxt-link to="/index-2">Home Two</nuxt-link></li>
-                          </ul><!-- /.sub-menu -->
                       </li>
                       <li class="scrollToLink">
-                          <a href="#services">Features</a>
+                          <a href="#setup">Setup</a>
                       </li>
                       <li class="scrollToLink">
-                          <a href="#screens">App Screens</a>
+                          <a href="#pos">PoS</a>
 
                       </li>
                       <li class="scrollToLink">
-                          <a href="#pricing">Pricing</a>
+                          <a href="#networks">Networks</a>
 
                       </li>
                       <li class="scrollToLink">
-                          <a href="#blog">Blog</a>
-                          <ul class="sub-menu">
-                              <li><nuxt-link to="/blog">Blog</nuxt-link></li>
-                              <li><nuxt-link to="/blog-details">Blog Details</nuxt-link></li>
-                          </ul><!-- /.sub-menu -->
+                          <a href="#clients">Clients</a>
                       </li>
                   </ul>
               </div><!-- /.navbar-collapse -->
