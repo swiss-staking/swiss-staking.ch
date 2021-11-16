@@ -21,13 +21,21 @@
               -->
 
 
-          	<img src="/images/swiss-staking-logo-large.png" class="banner-one__moc" alt="Awesome Image"/>
+          	<!-- img <img src="/images/swiss-staking-logo-large.png" class="banner-one__moc" alt="Awesome Image"/> -->
+          
+
               <div class="container">
+
+
+    
+
+
+
                   <div class="row">
                       <div class="col-lg-6">
                           <div class="banner-one__content">
                               <div class="block-title">
-                                  <div class="block-title__text"><span>Get rewarded by staking your </span> <br> <span>crypto assets</span> </div><!-- /.block-title__text -->
+                                  <div class="block-title__text type-append-body"><span>Get rewarded by staking your </span> <br> <span>crypto assets</span> </div><!-- /.block-title__text -->
                               </div><!-- /.block-title -->
                               <p class="banner-one__text">Swiss Staking is an ever-expanding proof-of-stake validator and venture fund. We offer "Staking as a Service" for thousands of people around the world and invest in disruptive DLT networks. </p><!-- /.banner-one__text -->
                             <a href="#" class="banner-one__btn">Get Started</a>

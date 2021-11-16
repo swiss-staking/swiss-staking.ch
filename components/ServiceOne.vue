@@ -33,7 +33,7 @@
                   <div class="service-one__single">
                       <img src="/images/rocket.png" alt="">
                       <h3 class="service-one__title"><a href="#">Skin in <br> the game</a></h3><!-- /.service-one__title -->
-                      <p class="service-one__text">Lorem ipsum is are <br> many variations of <br> pass of majority.</p><!-- /.service-one__text -->
+                      <p class="service-one__text">With our own digital assets locked up, we are fully engaged towards the success of each of the protocols where we operate.</p><!-- /.service-one__text -->
                       <a href="#" class="service-one__link"><i class="nonid-icon-left-arrow"></i></a>
                   </div><!-- /.service-one__single -->
               </div><!-- /.col-lg-3 -->

@@ -495,7 +495,7 @@ hr.style-one {
 * 4. banner styles
 */
 .banner-one {
-  background: transparent url(../images/banner-bg-1-1.png) right top no-repeat;
+  background: transparent url(../images/banner24.png) right top no-repeat;
   background-size: cover;
   padding-top: 315px;
   padding-bottom: 10px;
@@ -1595,22 +1595,7 @@ hr.style-one {
   -webkit-perspective: 400px;
           perspective: 400px;
 }
-.fun-fact-one .bubble-1 {
-  top: 25%;
-  left: 23%;
-}
-.fun-fact-one .bubble-2 {
-  top: 15%;
-  right: 30%;
-}
-.fun-fact-one .bubble-3 {
-  bottom: 20%;
-  left: 10%;
-}
-.fun-fact-one .bubble-4 {
-  bottom: 15%;
-  right: 13%;
-}
+
 .fun-fact-one__box-wrapper {
   display: -moz-flex;
   display: -ms-flex;
@@ -1647,15 +1632,15 @@ hr.style-one {
 
 }
 .fun-fact-one__single:nth-child(1) {
-  border-bottom: 3px solid #d42cbe3a;
+  border-bottom: 3px solid #C71F2C;
 }
 
 .fun-fact-one__single:nth-child(2) {
-  border-bottom: 3px solid #f5e83536;
+  border-bottom: 3px solid #C71F2C;
 }
 
 .fun-fact-one__single:nth-child(3) {
-  border-bottom: 3px solid #7e9ae05d;
+  border-bottom: 3px solid #C71F2C;
 }
 
 .fun-fact-one__title {
@@ -2373,7 +2358,7 @@ hr.style-one {
 }
 
 .cta-three {
-  background: transparent url(../images/cta-bg-1-2.png) center no-repeat;
+  background: transparent url(../images/cta-bg-1-2-2.png) center no-repeat;
   background-size: cover;
   padding-bottom: 120px;
   padding-top: 50px;
@@ -2383,20 +2368,31 @@ hr.style-one {
   position: absolute;
   -webkit-animation-name: bubbleMover;
           animation-name: bubbleMover;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
   -webkit-perspective: 400px;
           perspective: 400px;
 }
-.cta-three .bubble-1 {
-  top: 30%;
-  left: 15%;
+.cta-three .ground {
+  top: 70%;
+  left: 10%;
+  position: absolute;
+  -webkit-animation-name: bubbleMover;
+          animation-name: bubbleMover;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  -webkit-perspective: 400px;
+          perspective: 400px;
 }
 .cta-three .bubble-2 {
   top: 30%;
@@ -2418,20 +2414,19 @@ hr.style-one {
   left: 50px;
 }
 .cta-three .block-title {
-  padding-top: 350px;
+  padding-top: 270px;
   margin-bottom: 40px;
 }
 .cta-three__text {
   font-size: 16px;
   color: #666E82;
-  line-height: 30px;
   margin: 0;
 }
 .cta-three__list {
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-top: 45px;
+  margin-top: 25px;
 }
 .cta-three__list-item {
   font-size: 16px;
@@ -2440,9 +2435,9 @@ hr.style-one {
   padding-left: 30px;
 }
 .cta-three__list-item i {
-  color: #FF8257;
+  color: #C71F2C;
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 0;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -2455,7 +2450,7 @@ hr.style-one {
   vertical-align: middle;
   border-radius: 32px;
   text-align: center;
-  background-color: #FF8257;
+  background-color:#C71F2C;
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 600;
@@ -2818,4 +2813,372 @@ hr.style-one {
 
 html {
   scroll-behavior: smooth;
+}
+
+
+/* Home Page Banner Image */
+.main-wrapper {
+  display: flex;
+  transform-style: preserve-3d;
+  perspective: 400px;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 550px;
+  left: 100px;
+
+}
+.sphere-wrapper {
+  transform-style: preserve-3d;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  -webkit-animation: rotate3d 30s linear infinite;
+          animation: rotate3d 30s linear infinite;
+}
+.plane {
+  position: absolute;
+  transform-style: preserve-3d;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.spoke {
+  transform-origin: 0 0;
+  transform-style: preserve-3d;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 200px;
+  width: 0px;
+  background: rgba(255, 255, 255, 0.05);
+}
+.dot {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  left: -0.4px;
+  top: 100%;
+  transform: rotateX(90deg);
+}
+.spoke.spoke-1 {
+  transform: rotateZ(10deg);
+}
+.spoke.spoke-2 {
+  transform: rotateZ(20deg);
+}
+.spoke.spoke-3 {
+  transform: rotateZ(30deg);
+}
+.spoke.spoke-4 {
+  transform: rotateZ(40deg);
+}
+.spoke.spoke-5 {
+  transform: rotateZ(50deg);
+}
+.spoke.spoke-6 {
+  transform: rotateZ(60deg);
+}
+.spoke.spoke-7 {
+  transform: rotateZ(70deg);
+}
+.spoke.spoke-8 {
+  transform: rotateZ(80deg);
+}
+.spoke.spoke-9 {
+  transform: rotateZ(90deg);
+}
+.spoke.spoke-10 {
+  transform: rotateZ(100deg);
+}
+.spoke.spoke-11 {
+  transform: rotateZ(110deg);
+}
+.spoke.spoke-12 {
+  transform: rotateZ(120deg);
+}
+.spoke.spoke-13 {
+  transform: rotateZ(130deg);
+}
+.spoke.spoke-14 {
+  transform: rotateZ(140deg);
+}
+.spoke.spoke-15 {
+  transform: rotateZ(150deg);
+}
+.spoke.spoke-16 {
+  transform: rotateZ(160deg);
+}
+.spoke.spoke-17 {
+  transform: rotateZ(170deg);
+}
+.spoke.spoke-18 {
+  transform: rotateZ(180deg);
+}
+.spoke.spoke-19 {
+  transform: rotateZ(190deg);
+}
+.spoke.spoke-20 {
+  transform: rotateZ(200deg);
+}
+.spoke.spoke-21 {
+  transform: rotateZ(210deg);
+}
+.spoke.spoke-22 {
+  transform: rotateZ(220deg);
+}
+.spoke.spoke-23 {
+  transform: rotateZ(230deg);
+}
+.spoke.spoke-24 {
+  transform: rotateZ(240deg);
+}
+.spoke.spoke-25 {
+  transform: rotateZ(250deg);
+}
+.spoke.spoke-26 {
+  transform: rotateZ(260deg);
+}
+.spoke.spoke-27 {
+  transform: rotateZ(270deg);
+}
+.spoke.spoke-28 {
+  transform: rotateZ(280deg);
+}
+.spoke.spoke-29 {
+  transform: rotateZ(290deg);
+}
+.spoke.spoke-30 {
+  transform: rotateZ(300deg);
+}
+.spoke.spoke-31 {
+  transform: rotateZ(310deg);
+}
+.spoke.spoke-32 {
+  transform: rotateZ(320deg);
+}
+.spoke.spoke-33 {
+  transform: rotateZ(330deg);
+}
+.spoke.spoke-34 {
+  transform: rotateZ(340deg);
+}
+.spoke.spoke-35 {
+  transform: rotateZ(350deg);
+}
+.plane.plane-1 {
+  transform: rotateY(11.25deg);
+}
+.plane.plane-2 {
+  transform: rotateY(22.5deg);
+}
+.plane.plane-3 {
+  transform: rotateY(33.75deg);
+}
+.plane.plane-4 {
+  transform: rotateY(45deg);
+}
+.plane.plane-5 {
+  transform: rotateY(56.25deg);
+}
+.plane.plane-6 {
+  transform: rotateY(67.5deg);
+}
+.plane.plane-7 {
+  transform: rotateY(78.75deg);
+}
+.plane.plane-8 {
+  transform: rotateY(90deg);
+}
+.plane.plane-9 {
+  transform: rotateY(101.25deg);
+}
+.plane.plane-10 {
+  transform: rotateY(112.5deg);
+}
+.plane.plane-11 {
+  transform: rotateY(123.75deg);
+}
+.plane.plane-12 {
+  transform: rotateY(135deg);
+}
+.plane.plane-13 {
+  transform: rotateY(146.25deg);
+}
+.plane.plane-14 {
+  transform: rotateY(157.5deg);
+}
+.plane.plane-15 {
+  transform: rotateY(168.75deg);
+}
+.spoke-0 .dot,
+.spoke-36 .dot {
+  -webkit-animation: pulsate 0.7s infinite 0s alternate both;
+          animation: pulsate 0.7s infinite 0s alternate both;
+  background-color: #999999;
+}
+.spoke-1 .dot,
+.spoke-35 .dot {
+  -webkit-animation: pulsate 0.7s infinite 0.05555556s alternate both;
+          animation: pulsate 0.7s infinite 0.05555556s alternate both;
+  background-color: #999999;
+}
+.spoke-2 .dot,
+.spoke-34 .dot {
+  -webkit-animation: pulsate 0.7s infinite 0.11111111s alternate both;
+          animation: pulsate 0.7s infinite 0.11111111s alternate both;
+  background-color: #999999;
+}
+.spoke-3 .dot,
+.spoke-33 .dot {
+  -webkit-animation: pulsate 0.7s infinite 0.16666667s alternate both;
+          animation: pulsate 0.7s infinite 0.16666667s alternate both;
+  background-color: #999999;
+}
+.spoke-4 .dot,
+.spoke-32 .dot {
+  -webkit-animation: pulsate 0.7s infinite 0.22222222s alternate both;
+          animation: pulsate 0.7s infinite 0.22222222s alternate both;
+  background-color: #999999;
+}
+.spoke-5 .dot,
+.spoke-31 .dot {
+  -webkit-animation: pulsate 0.7s infinite 0.27777778s alternate both;
+          animation: pulsate 0.7s infinite 0.27777778s alternate both;
+  background-color: #999999;
+}
+.spoke-6 .dot,
+.spoke-30 .dot {
+  -webkit-animation: pulsate 0.7s infinite 0.33333333s alternate both;
+          animation: pulsate 0.7s infinite 0.33333333s alternate both;
+  background-color: #999999;
+}
+.spoke-7 .dot,
+.spoke-29 .dot {
+  -webkit-animation: pulsate 0.7s infinite 0.38888889s alternate both;
+          animation: pulsate 0.7s infinite 0.38888889s alternate both;
+  background-color: #999999;
+}
+.spoke-8 .dot,
+.spoke-28 .dot {
+  -webkit-animation: pulsate 0.7s infinite 0.44444444s alternate both;
+          animation: pulsate 0.7s infinite 0.44444444s alternate both;
+  background-color: #999999;
+}
+.spoke-9 .dot,
+.spoke-27 .dot {
+  -webkit-animation: pulsate 0.7s infinite 0.5s alternate both;
+          animation: pulsate 0.7s infinite 0.5s alternate both;
+  background-color: #999999;
+}
+.spoke-10 .dot,
+.spoke-26 .dot {
+  -webkit-animation: pulsate 0.7s infinite 0.55555556s alternate both;
+          animation: pulsate 0.7s infinite 0.55555556s alternate both;
+  background-color: #999999;
+}
+.spoke-11 .dot,
+.spoke-25 .dot {
+  -webkit-animation: pulsate 0.7s infinite 0.61111111s alternate both;
+          animation: pulsate 0.7s infinite 0.61111111s alternate both;
+  background-color: #999999;
+}
+.spoke-12 .dot,
+.spoke-24 .dot {
+  -webkit-animation: pulsate 0.7s infinite 0.66666667s alternate both;
+          animation: pulsate 0.7s infinite 0.66666667s alternate both;
+  background-color: #999999;
+}
+.spoke-13 .dot,
+.spoke-23 .dot {
+  -webkit-animation: pulsate 0.7s infinite 0.72222222s alternate both;
+          animation: pulsate 0.7s infinite 0.72222222s alternate both;
+  background-color: #999999;
+}
+.spoke-14 .dot,
+.spoke-22 .dot {
+  -webkit-animation: pulsate 0.7s infinite 0.77777778s alternate both;
+          animation: pulsate 0.7s infinite 0.77777778s alternate both;
+  background-color: #999999;
+}
+.spoke-15 .dot,
+.spoke-21 .dot {
+  -webkit-animation: pulsate 0.7s infinite 0.83333333s alternate both;
+          animation: pulsate 0.7s infinite 0.83333333s alternate both;
+  background-color: #999999;
+}
+.spoke-16 .dot,
+.spoke-20 .dot {
+  -webkit-animation: pulsate 0.7s infinite 0.88888889s alternate both;
+          animation: pulsate 0.7s infinite 0.88888889s alternate both;
+  background-color: #999999;
+}
+.spoke-17 .dot,
+.spoke-19 .dot {
+  -webkit-animation: pulsate 0.7s infinite 0.94444444s alternate both;
+          animation: pulsate 0.7s infinite 0.94444444s alternate both;
+  background-color: #999999;
+}
+.spoke-18 .dot,
+.spoke-18 .dot {
+  -webkit-animation: pulsate 0.7s infinite 1s alternate both;
+          animation: pulsate 0.7s infinite 1s alternate both;
+  background-color: #999999;
+}
+@-webkit-keyframes rotate3d {
+  0% {
+    transform: rotate3d(1, 1, 1, 0deg);
+  }
+  25% {
+    transform: rotate3d(1, 1, 1, 90deg);
+  }
+  50% {
+    transform: rotate3d(1, 1, 1, 180deg);
+  }
+  75% {
+    transform: rotate3d(1, 1, 1, 270deg);
+  }
+  100% {
+    transform: rotate3d(1, 1, 1, 360deg);
+  }
+}
+@keyframes rotate3d {
+  0% {
+    transform: rotate3d(1, 1, 1, 0deg);
+  }
+  25% {
+    transform: rotate3d(1, 1, 1, 90deg);
+  }
+  50% {
+    transform: rotate3d(1, 1, 1, 180deg);
+  }
+  75% {
+    transform: rotate3d(1, 1, 1, 270deg);
+  }
+  100% {
+    transform: rotate3d(1, 1, 1, 360deg);
+  }
+}
+@-webkit-keyframes pulsate {
+  0% {
+    transform: rotateX(90deg) scale(0.3) translateZ(20px);
+  }
+  100% {
+    transform: rotateX(90deg) scale(1) translateZ(0px);
+  }
+}
+@keyframes pulsate {
+  0% {
+    transform: rotateX(90deg) scale(0.3) translateZ(20px);
+  }
+  100% {
+    transform: rotateX(90deg) scale(1) translateZ(0px);
+  }
+}
+
+.type-append-body > br:first-child {
+	display: none;
 }
