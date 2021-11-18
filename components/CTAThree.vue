@@ -4,7 +4,7 @@
       <div class="container">
           <!-- /.block-title  <img src="/images/phone7.png" alt="Awesome Image" class="cta-three__moc" /> -->
 
-        <div class="main-wrapper">
+        <!-- <div class="main-wrapper">
 <div class="sphere-wrapper">
 <div class="plane plane-1">
 <div class="spoke spoke-1">
@@ -1767,12 +1767,11 @@
 </div>
 </div>
 </div>
-</div>    
+</div>     -->
 
 
 
           <div class="row no-gutters justify-content-end">
-               <img src="/images/cta-ground.png" alt="Awesome Image" class="ground" />
               <div class="col-lg-6 col-md-12 col-sm-12 d-flex">
                   <div class="cta-three__content my-auto">
                       <div class="block-title">
