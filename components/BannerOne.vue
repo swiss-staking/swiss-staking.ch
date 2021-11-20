@@ -37,7 +37,7 @@
                               <div class="block-title">
                                   <div class="block-title__text type-append-body"><span>Get rewarded by staking your </span> <br> <span>crypto assets</span> </div><!-- /.block-title__text -->
                               </div><!-- /.block-title -->
-                              <p class="banner-one__text">Swiss Staking is an ever-expanding proof-of-stake validator and venture fund. We offer "Staking as a Service" for thousands of people around the world and invest in disruptive DLT networks. </p><!-- /.banner-one__text -->
+                              <p class="banner-one__text">Swiss Staking is an ever-expanding proof-of-stake validator and venture fund based in the heart of Switzerland. We offer "Staking as a Service" for thousands of people around the world and invest in disruptive DLT networks. </p><!-- /.banner-one__text -->
                             <a href="#" class="banner-one__btn">Get Started</a>
                               
                             <!-- FUN_FACT --> 

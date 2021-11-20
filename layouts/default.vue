@@ -10,7 +10,7 @@
     },
     head(){
       return {
-        title: "Nonid - Vue Nuxt SEO and Software Landing Page Template"
+        title: "Swiss Staking Validator"
       }
     },
     mounted () {

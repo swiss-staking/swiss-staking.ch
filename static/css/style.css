@@ -495,7 +495,7 @@ hr.style-one {
 * 4. banner styles
 */
 .banner-one {
-  background: transparent url(../images/banner24.png) right top no-repeat;
+  background: transparent url(../images/banner27.png) right top no-repeat;
   background-size: cover;
   padding-top: 315px;
   padding-bottom: 10px;
@@ -872,9 +872,9 @@ hr.style-one {
 * 6. blog styles
 */
 .blog-one {
-  padding-top: 190px;
-  padding-bottom: 90px;
-  background: transparent url(../images/blog-one-banner-3.png) center center no-repeat;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background: transparent url(../images/banner-blue-2.png) center center no-repeat;
   background-size: cover;
 }
 
@@ -2134,7 +2134,7 @@ hr.style-one {
 * 12. cta styles
 */
 .cta-one {
-  background: transparent url(../images/cta-bg-1-2-1.png) top top no-repeat;
+  background: transparent url(../images/banner-orange-2.png) center center no-repeat;
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 195px;
@@ -2358,10 +2358,10 @@ hr.style-one {
 }
 
 .cta-three {
-  background: transparent url(../images/cta-three-banner-13.png) center no-repeat;
+  background: transparent url(../images/banner-orange-3.png) center no-repeat;
   background-size: cover;
-  padding-bottom: 120px;
   position: relative;
+  padding-bottom: 150px;
 }
 
 /* .cta-three .ground {
@@ -2386,13 +2386,13 @@ hr.style-one {
 }
 .cta-three__moc {
   position: absolute;
-  top: 70%;
+  top: 50%;
   -webkit-transform: translateY(-50%) translateX(-100px);
           transform: translateY(-50%) translateX(-100px);
   left: 50px;
 }
 .cta-three .block-title {
-  padding-top: 350px;
+  padding-top: 150px;
   margin-bottom: 40px;
 }
 .cta-three__text {
@@ -2455,14 +2455,14 @@ hr.style-one {
 
   padding-top: 190px;
   padding-bottom: 50px;
-  background: transparent url(../images/service-one-banner-4.png) center center no-repeat;
+  background: transparent url(../images/banner-blue-2.png) center center no-repeat;
   background-size: cover;
 }
 .service-one__single {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   border-radius: 4px;
   background-color: white;
   -webkit-box-shadow: 0px 5px 30px 0px rgba(46, 61, 98, 0.1);

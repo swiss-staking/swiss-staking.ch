@@ -12,7 +12,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', sizes:'16x16', href: '/images/favicon/favicon-16x16.png' },
+      { rel: 'icon', type: 'image/png', sizes:'16x16', href: '/images/swiss-staking-logo.png' },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" },
       { rel: "stylesheet", href: "/css/bootstrap.min.css" },
       { rel: "stylesheet", href: "/css/font-awesome.min.css" },

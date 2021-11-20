@@ -12,7 +12,7 @@
               <div class="row">
                   <div class="col-lg-3 col-md-6 col-sm-12">
                       <div class="footer-widget footer-widget--about-widget">
-                          <a href="index.html" class="footer-widget__footer-logo"><img src="images/logo-1-1.png" alt="Awesome Image" /></a>
+                          <a href="index.html" class="footer-widget__footer-logo"><img src="images/swiss-staking-logo2.png" alt="Awesome Image" /></a>
                             <p>UID: CHE-105.648.628 </p>
                             <p>CH-iD: CH-100-3024094-6</p>
                           <p>info@swiss-staking.ch</p>
@@ -25,10 +25,9 @@
                               Explore
                           </h3><!-- /.footer-widget__title -->
                           <ul class="footer-widget__link-list">
-                              <li><a href="#">Bitcoin community</a></li>
-                              <li><a href="#">Our Team</a></li>
-                              <li><a href="#">Features</a></li>
-                              <li><a href="#">Blog</a></li>
+                              <li><a href="#">Handelsregiester</a></li>
+                              <li><a href="#">Interview</a></li>
+                              <li><a href="#">PoS Video</a></li>
                               <li><a href="#">How It Works</a></li>
                           </ul><!-- /.footer-widget__link-list -->
                       </div><!-- /.footer-widget -->
@@ -46,19 +45,7 @@
                           </ul><!-- /.footer-widget__link-list -->
                       </div><!-- /.footer-widget -->
                   </div><!-- /.col-lg-3 -->
-                  <div class="col-lg-2 col-md-6 col-sm-12">
-                      <div class="footer-widget">
-                          <h3 class="footer-widget__title">
-                              Links
-                          </h3><!-- /.footer-widget__title -->
-                          <ul class="footer-widget__link-list">
-                              <li><a href="#">Help</a></li>
-                              <li><a href="#">Support</a></li>
-                              <li><a href="#">Clients</a></li>
-                              <li><a href="#">Contact</a></li>
-                          </ul><!-- /.footer-widget__link-list -->
-                      </div><!-- /.footer-widget -->
-                  </div><!-- /.col-lg-2 -->
+                
                   <div class="col-lg-2 col-md-6 col-sm-12 d-flex">
                       <div class="footer-widget my-auto">
                           <div class="social-block">
