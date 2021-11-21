@@ -190,10 +190,51 @@
                             </div>
                             <div>
                             <h3 class="blog-one__title">Sentinel</h3>
-                            <p class="blog-one__text">Sentinel's dVPN service allows a person to use the VPN service or help the VPN by sharing free, unused internet with other people in the network..</p>
+                            <p class="blog-one__text">Sentinel's dVPN service allows a person to use the VPN service or help the VPN by sharing free, unused internet with other people in the network.</p>
                             </div>
                             <div><a class="blog-one__dev">Mainnet, 5% fee</a>
                             <a href="https://ping.pub/sentinel/staking/sentvaloper1p96zfghgdcs6yv920qfhwn3wnzh9srewffkt5c" target="_blank" class="blog-one__btn">Delegate</a>                           
+                            </div>
+                                     
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
+
+                <div class="col-lg-4"><!-- Evmos-->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">1 November, 2021</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/evmos.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Evmos</h3>
+                            <p class="blog-one__text">Evmos serves as the first IBC-compatible EVM-based chain, bringing composability, interoperability, and fast finality to Ethereum.</p>
+                            </div>
+                            <div class="blog__footer"><a class="blog-one__dev">Testnet</a>
+                            <a target="_blank" class="blog-one__btn">N/A</a>                           
+                           
+                            </div>
+                                     
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
+
+
+                <div class="col-lg-4"><!-- Anoma -->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">1 November, 2021</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/anoma.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Anoma</h3>
+                            <p class="blog-one__text">A sovereign, proof-of-stake blockchain protocol that enables private, asset-agnostic cash and private bartering among any number of parties.</p>
+                            </div>
+                            <div class="blog__footer"><a class="blog-one__dev">Testnet</a>
+                            <a target="_blank" class="blog-one__btn">N/A</a>                           
+                           
                             </div>
                                      
                         </div><!-- /.blog-one__single-inner-block -->

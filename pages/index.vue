@@ -6,6 +6,7 @@
     <CTAThree />   
     <BlogHome />
     <CTAOne />
+    <Team />
     <Footer />
   </div>
 </template>
@@ -15,25 +16,19 @@
   import Footer from "../components/Footer";
   import ServiceOne from "../components/ServiceOne";
   import CTAThree from "../components/CTAThree";
-  import CTATwo from "../components/CTATwo";
   import CTAOne from "../components/CTAOne";
-  import Pricing from "../components/Pricing";
-  import Testimonial from "../components/Testimonial";
-  import ClientsLogo from "../components/ClientsLogo";
   import BlogHome from "../components/BlogHome";
+  import Team from "../components/Team";
   export default {
     components: {
       BlogHome,
-      ClientsLogo,
-      Testimonial,
-      Pricing,
       CTAOne,
-      CTATwo,
       CTAThree,
       ServiceOne,
       Footer,
       BannerOne,
-      NavOne
+      NavOne,
+      Team
     }
   }
 </script>

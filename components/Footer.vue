@@ -4,7 +4,6 @@
 
       <div class="site-footer__subscribe">
           <div class="container">
-              <p>Team</p>
           </div><!-- /.container -->
       </div><!-- /.site-footer__subscribe -->
       <div class="site-footer__main-footer">
@@ -12,50 +11,50 @@
               <div class="row">
                   <div class="col-lg-3 col-md-6 col-sm-12">
                       <div class="footer-widget footer-widget--about-widget">
-                          <a href="index.html" class="footer-widget__footer-logo"><img src="images/swiss-staking-logo2.png" alt="Awesome Image" /></a>
-                            <p>UID: CHE-105.648.628 </p>
-                            <p>CH-iD: CH-100-3024094-6</p>
-                          <p>info@swiss-staking.ch</p>
-                          <p><br></p>
+                          <a href="#" class="footer-widget__footer-logo"><img src="images/swiss-staking-logo2.png" alt="Awesome Image" /></a>
+                         
+                          <p><p>
+                          
+                          <p> </p>
+                           <div class="social-block">
+                              <a href="https://twitter.com/@swiss_staking"><i class="fa fa-twitter"></i></a>
+                              <a href="#"><i class="fa fa-linkedin"></i></a>
+                              <a href="#"><i class="fa fa-medium"></i></a>
+                             
+                          </div><!-- /.social-block -->
+                          <p>
+                           <p>info@swiss-staking.ch</p>
                       </div><!-- /.footer-widget -->
                   </div><!-- /.col-lg-3 -->
                   <div class="col-lg-2 col-md-6 col-sm-12">
                       <div class="footer-widget">
                           <h3 class="footer-widget__title">
-                              Explore
+                              Explore Us
                           </h3><!-- /.footer-widget__title -->
                           <ul class="footer-widget__link-list">
-                              <li><a href="#">Handelsregiester</a></li>
+                              <li><a href="#">Blog</a></li>
                               <li><a href="#">Interview</a></li>
-                              <li><a href="#">PoS Video</a></li>
-                              <li><a href="#">How It Works</a></li>
+                              <li><a href="#"></a>Handelsregister</li>
+                              <li><a href="#">AGB</a></li>
                           </ul><!-- /.footer-widget__link-list -->
                       </div><!-- /.footer-widget -->
                   </div><!-- /.col-lg-2 -->
                   <div class="col-lg-3 col-md-6 col-sm-12">
                       <div class="footer-widget">
                           <h3 class="footer-widget__title">
-                              Services
+                              Communities
                           </h3><!-- /.footer-widget__title -->
                           <ul class="footer-widget__link-list">
-                              <li><a href="#">Speed Optimization</a></li>
-                              <li><a href="#">Marketing Analysis</a></li>
-                              <li><a href="#">SEO and Backlinks</a></li>
-                              <li><a href="#">Content Marketing</a></li>
+                              <li><a href="#">Tezos (German)</a></li>
+                              <li><a href="#">Cosmos (German)</a></li>
+                              <li><a href="#">Research Calls (German)</a></li>
+                              <li><a href="#">Bitcoin (German)</a></li>
                           </ul><!-- /.footer-widget__link-list -->
                       </div><!-- /.footer-widget -->
                   </div><!-- /.col-lg-3 -->
-                
-                  <div class="col-lg-2 col-md-6 col-sm-12 d-flex">
-                      <div class="footer-widget my-auto">
-                          <div class="social-block">
-                              <a href="#"><i class="fa fa-twitter"></i></a>
-                              <a href="#"><i class="fa fa-facebook-f"></i></a>
-                              <a href="#"><i class="fa fa-linkedin"></i></a>
-                              <a href="#"><i class="fa fa-youtube-play"></i></a>
-                          </div><!-- /.social-block -->
-                      </div><!-- /.footer-widget -->
-                  </div><!-- /.col-lg-2 -->
+
+             
+
               </div><!-- /.row -->
           </div><!-- /.container -->
       </div><!-- /.site-footer__main-footer -->

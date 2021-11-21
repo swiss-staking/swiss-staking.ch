@@ -26,11 +26,17 @@
                       </li>
                       <li class="scrollToLink">
                           <a href="#networks">Networks</a>
-
                       </li>
+                      
                       <li class="scrollToLink">
                           <a href="#clients">Clients</a>
                       </li>
+
+                      <li class="scrollToLink">
+                          <a href="#team">Team</a>
+                      </li>
+
+
                   </ul>
               </div><!-- /.navbar-collapse -->
               <div class="right-side-box">
