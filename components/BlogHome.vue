@@ -241,6 +241,27 @@
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
 
+                <div class="col-lg-4"><!-- Cere -->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">5 September, 2021</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/cere.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Cere </h3>
+                            <p class="blog-one__text">Cere’s Decentralized Data Cloud (DDC) is designed from the ground up to ​address today’s enterprise need for individual user data encryption and privacy compliance while simplifying the customization and integration with today’s data-driven solutions.</p>
+                            </div>
+                            <div class="blog__footer"><a class="blog-one__dev">Testnet</a>
+                            <a target="_blank" class="blog-one__btn">N/A</a>                           
+                           
+                            </div>
+                                     
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
+
+
 
 
             </div><!-- /.row -->

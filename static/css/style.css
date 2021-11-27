@@ -627,89 +627,18 @@ hr.style-one {
   padding-top: 10px;
   padding-bottom: 10px; */
 }
-.site-footer [class*=bubble-] {
-  position: absolute;
-  -webkit-animation-name: bubbleMover;
-          animation-name: bubbleMover;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
-  -webkit-perspective: 400px;
-          perspective: 400px;
-}
-.site-footer .bubble-1 {
-  top: 15%;
-  left: 13%;
-}
-.site-footer .bubble-2 {
-  top: 15%;
-  right: 20%;
-}
-.site-footer .bubble-3 {
-  bottom: 20%;
-  left: 10%;
-}
-.site-footer .bubble-4 {
-  bottom: 15%;
-  right: 13%;
-}
 
-@-webkit-keyframes bubbleMover {
-  0% {
-    -webkit-transform: rotate3d(0, 1, 0, 15deg) translateY(0px) translateX(0px);
-            transform: rotate3d(0, 1, 0, 15deg) translateY(0px) translateX(0px);
-  }
-  30% {
-    -webkit-transform: rotate3d(0, 0, 1, 20deg) translateY(10px) translateX(10px);
-            transform: rotate3d(0, 0, 1, 20deg) translateY(10px) translateX(10px);
-  }
-  60% {
-    -webkit-transform: rotate3d(1, 0, 0, 15deg) translateY(20px) translateX(20px);
-            transform: rotate3d(1, 0, 0, 15deg) translateY(20px) translateX(20px);
-  }
-  80% {
-    -webkit-transform: rotate3d(0, 0, 1, 20deg) translateY(10px) translateX(10px);
-            transform: rotate3d(0, 0, 1, 20deg) translateY(10px) translateX(10px);
-  }
-  100% {
-    -webkit-transform: rotate3d(0, 1, 0, 15deg) translateY(0px) translateX(0px);
-            transform: rotate3d(0, 1, 0, 15deg) translateY(0px) translateX(0px);
-  }
-}
-
-@keyframes bubbleMover {
-  0% {
-    -webkit-transform: rotate3d(0, 1, 0, 15deg) translateY(0px) translateX(0px);
-            transform: rotate3d(0, 1, 0, 15deg) translateY(0px) translateX(0px);
-  }
-  30% {
-    -webkit-transform: rotate3d(0, 0, 1, 20deg) translateY(10px) translateX(10px);
-            transform: rotate3d(0, 0, 1, 20deg) translateY(10px) translateX(10px);
-  }
-  60% {
-    -webkit-transform: rotate3d(1, 0, 0, 15deg) translateY(20px) translateX(20px);
-            transform: rotate3d(1, 0, 0, 15deg) translateY(20px) translateX(20px);
-  }
-  80% {
-    -webkit-transform: rotate3d(0, 0, 1, 20deg) translateY(10px) translateX(10px);
-            transform: rotate3d(0, 0, 1, 20deg) translateY(10px) translateX(10px);
-  }
-  100% {
-    -webkit-transform: rotate3d(0, 1, 0, 15deg) translateY(0px) translateX(0px);
-            transform: rotate3d(0, 1, 0, 15deg) translateY(0px) translateX(0px);
-  }
-}
 .site-footer__main-footer {
   padding-bottom: 120px;
   padding-left: 20%;
 
 }
 
+.site-footer__main-footer .col-lg-2 {
+  flex: 0 0 30%;
+  max-width: 30%;
+
+}
 .site-footer__bottom-footer {
   background-color: #FAFAFA;
   padding: 44px 0;
@@ -739,7 +668,7 @@ hr.style-one {
   margin-top: 16px;
 }
 .footer-widget .social-block {
-  margin-top: -20px;
+  margin-top: 18px;
 }
 .footer-widget .social-block a {
   display: inline-block;
@@ -1349,6 +1278,32 @@ hr.style-one {
 .blog-one [class*=col-]:nth-child(12) .blog-one__single-inner-block:hover .blog-one__date {
   background-color: #fff;
   color: #f74c4c;
+}
+.blog-one [class*=col-]:nth-child(12) .blog-one__single-inner-block:hover .blog-one__title a,
+.blog-one [class*=col-]:nth-child(12) .blog-one__single-inner-block:hover .blog-one__text,
+.blog-one [class*=col-]:nth-child(12) .blog-one__single-inner-block:hover .blog-one__link,
+.blog-one [class*=col-]:nth-child(12) .blog-one__single-inner-block:hover .blog-one__author {
+  color: #fff;
+}
+
+.blog-one [class*=col-]:nth-child(12) .blog-one__date {
+  background-color: #9364D4;
+}
+.blog-one [class*=col-]:nth-child(12) .blog-one__author {
+  color: #9364D4;
+}
+.blog-one [class*=col-]:nth-child(12) .blog-one__single-inner-block:hover {
+  background-color: #9364D4;
+}
+
+.blog-one [class*=col-]:nth-child(12)  .blog-one__btn {
+  color: #9364D4;
+  border-color: #9364D4 ;
+}
+
+.blog-one [class*=col-]:nth-child(12) .blog-one__single-inner-block:hover .blog-one__date {
+  background-color: #fff;
+  color: #9364D4;
 }
 .blog-one [class*=col-]:nth-child(12) .blog-one__single-inner-block:hover .blog-one__title a,
 .blog-one [class*=col-]:nth-child(12) .blog-one__single-inner-block:hover .blog-one__text,
@@ -2904,6 +2859,8 @@ html {
   margin-bottom: 15px;
   overflow: hidden;
 }
+
+
 
 .team_description  {
   text-align: left;

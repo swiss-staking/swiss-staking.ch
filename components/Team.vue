@@ -9,8 +9,8 @@
             <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="/images/gilles.png" width=70% alt=""></div>
-              <h4>Gilles Voutat</h4>
-              <span>Cloud Engineer</span>
+              <a class="name">Gilles V.</a>
+              
           
             </div>
             </div>
@@ -26,15 +26,14 @@
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="/images/seb.png" width=70% alt=""></div>
-              <h4>Sébastian Voutat</h4>
-              <span>Cloud Engineer</span>
-          
+              <a class="name">Sébastian V.</a>
+            
             </div>
             </div>
             
             <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="team_description">"yy"</div>
+              <div class="team_description">"Every once in a while, a revolutionary product, in this case blockchain, comes along that changes everything. We invest, support and help to create the token economy of the future."</div>
               
             </div>
           </div>
