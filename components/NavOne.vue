@@ -40,7 +40,7 @@
                   </ul>
               </div><!-- /.navbar-collapse -->
               <div class="right-side-box">
-                  <a href="#" class="header-one__btn">Contact</a>
+                  <a href="#footer" class="header-one__btn">Contact</a>
               </div><!-- /.right-side-box -->
           </div>
           <!-- /.container -->

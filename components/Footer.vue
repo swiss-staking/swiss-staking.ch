@@ -1,6 +1,6 @@
 <template>
   <div>
-  <footer class="site-footer">
+  <footer class="site-footer" id="footer">
 
       <div class="site-footer__subscribe">
           <div class="container">
@@ -34,7 +34,7 @@
                           <ul class="footer-widget__link-list">
                               <li><a href="#">Blog</a></li>
                               <li><a href="#">Interview</a></li>
-                              <li><a href="#"></a>Handelsregister</li>
+                              <li><a href="https://tinyurl.com/y2sudd4k">NFT</a></li>
                               <li><a href="#">AGB</a></li>
                           </ul><!-- /.footer-widget__link-list -->
                       </div><!-- /.footer-widget -->
