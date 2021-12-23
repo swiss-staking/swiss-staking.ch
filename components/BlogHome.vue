@@ -232,7 +232,7 @@
                             <h3 class="blog-one__title">Anoma</h3>
                             <p class="blog-one__text">A sovereign, proof-of-stake blockchain protocol that enables private, asset-agnostic cash and private bartering among any number of parties.</p>
                             </div>
-                            <div class="blog__footer"><a class="blog-one__dev">Testnet</a>
+                            <div class="blog__footer"><a class="blog-one__dev">Mainnet</a>
                             <a target="_blank" class="blog-one__btn">N/A</a>                           
                            
                             </div>
@@ -241,19 +241,19 @@
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
 
-                <div class="col-lg-4"><!-- Cere -->
+                <div class="col-lg-4"><!-- Gravity -->
                     <div class="blog-one__single">
                         <div class="blog-one__single-inner-block">
-                            <div class="blog-one__date">5 September, 2021</div><!-- /.blog-one__date -->
+                            <div class="blog-one__date">17. December, 2021</div><!-- /.blog-one__date -->
                             <div class="blog-one__image">
-                            <img src="/images/cere.png" alt="">
+                            <img src="/images/gravity.png" alt="">
                             </div>
                             <div>
-                            <h3 class="blog-one__title">Cere </h3>
-                            <p class="blog-one__text">Cere’s Decentralized Data Cloud (DDC) is designed from the ground up to ​address today’s enterprise need for individual user data encryption and privacy compliance while simplifying the customization and integration with today’s data-driven solutions.</p>
+                            <h3 class="blog-one__title">Gravity Brdige</h3>
+                            <p class="blog-one__text">Gravity will be able to bring ERC20 assets from Ethereum into Cosmos, as well as Cosmos assets to Ethereum ERC20 representations.</p>
                             </div>
-                            <div class="blog__footer"><a class="blog-one__dev">Testnet</a>
-                            <a target="_blank" class="blog-one__btn">N/A</a>                           
+                            <div><a class="blog-one__dev">Mainnet, 5% fee</a>
+                            <a href="https://www.mintscan.io/gravity-bridge/validators/gravityvaloper1z5nxs28a8krdhv6z6jw7gs5k6qr43xycr8wc6k" target="_blank" class="blog-one__btn">Delegate</a>                     
                            
                             </div>
                                      
