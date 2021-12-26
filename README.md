@@ -1,3 +1,7 @@
+# Deployment via Azure
+https://docs.microsoft.com/en-us/azure/static-web-apps/publish-devops
+
+
 # nonid
 
 > Vue Nuxt SEO &amp; Software Landing Page Template
