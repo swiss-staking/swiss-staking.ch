@@ -200,6 +200,26 @@
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
 
+                <div class="col-lg-4"><!-- Anoma -->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">1 November, 2021</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/anoma.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Anoma</h3>
+                            <p class="blog-one__text">A sovereign, proof-of-stake blockchain protocol that enables private, asset-agnostic cash and private bartering among any number of parties.</p>
+                            </div>
+                            <div class="blog__footer"><a class="blog-one__dev">Mainnet</a>
+                            <a target="_blank" class="blog-one__btn">N/A</a>                           
+                           
+                            </div>
+                                     
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
+
                 <div class="col-lg-4"><!-- Evmos-->
                     <div class="blog-one__single">
                         <div class="blog-one__single-inner-block">
@@ -221,25 +241,7 @@
                 </div><!-- /.col-lg-4 -->
 
 
-                <div class="col-lg-4"><!-- Anoma -->
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-inner-block">
-                            <div class="blog-one__date">1 November, 2021</div><!-- /.blog-one__date -->
-                            <div class="blog-one__image">
-                            <img src="/images/anoma.png" alt="">
-                            </div>
-                            <div>
-                            <h3 class="blog-one__title">Anoma</h3>
-                            <p class="blog-one__text">A sovereign, proof-of-stake blockchain protocol that enables private, asset-agnostic cash and private bartering among any number of parties.</p>
-                            </div>
-                            <div class="blog__footer"><a class="blog-one__dev">Mainnet</a>
-                            <a target="_blank" class="blog-one__btn">N/A</a>                           
-                           
-                            </div>
-                                     
-                        </div><!-- /.blog-one__single-inner-block -->
-                    </div><!-- /.blog-one__single -->
-                </div><!-- /.col-lg-4 -->
+               
 
                 <div class="col-lg-4"><!-- Gravity -->
                     <div class="blog-one__single">
@@ -251,10 +253,11 @@
                             <div>
                             <h3 class="blog-one__title">Gravity Brdige</h3>
                             <p class="blog-one__text">Gravity will be able to bring ERC20 assets from Ethereum into Cosmos, as well as Cosmos assets to Ethereum ERC20 representations.</p>
+                            <br>
                             </div>
-                            <div><a class="blog-one__dev">Mainnet, 5% fee</a>
+                            <div><a class="blog-one__dev">Mainnet, 0% Fee</a>
                             <a href="https://www.mintscan.io/gravity-bridge/validators/gravityvaloper1z5nxs28a8krdhv6z6jw7gs5k6qr43xycr8wc6k" target="_blank" class="blog-one__btn">Delegate</a>                     
-                           
+
                             </div>
                                      
                         </div><!-- /.blog-one__single-inner-block -->
@@ -262,6 +265,25 @@
                 </div><!-- /.col-lg-4 -->
 
 
+                <div class="col-lg-4"><!-- Umee -->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">21. December, 2021</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/umee.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Umee</h3>
+                            <p class="blog-one__text">Umee connects users to create lending and borrowing positions, move capital across chains, discover new yield opportunities and explore DeFi applications intersecting networks.</p>
+                            </div>
+                            <div><a class="blog-one__dev">Testnet</a>
+                            <a href="https://gravity-wars.umee.nodes.guru/validator/umeevaloper19yy0u0ttam2p9k874vsh2u4tt7e6cmq8h2w9nv" target="_blank" class="blog-one__btn">N/A</a>                     
+                           
+                            </div>
+                                     
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
 
 
             </div><!-- /.row -->

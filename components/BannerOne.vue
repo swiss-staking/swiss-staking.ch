@@ -107,9 +107,9 @@ import countTo from 'vue-count-to';
       .then(xtz_staked => xtz_staked.json())
       .then(json => this.xtz_staked = json.stakingBalance);
       
-      this.atom_staked = 550000
-      this.avax_staked = 7000
-      this.osmosis_staked = 100000
+      this.atom_staked = 620000
+      this.avax_staked = 6000
+      this.osmosis_staked = 140000
       this.juno_staked = 600000
       this.dvpn_staked = 100000000
       this.band_staked = 170000
@@ -149,13 +149,15 @@ import countTo from 'vue-count-to';
       .then(delegators => delegators.json())
       this.xtz_clients = Object.keys(delegators).length;
 
-      this.atom_client = 1134
+      this.atom_client = 1200
       this.osmo_client = 197
       this.juno_client = 350
       this.dvpn_client = 6
       this.band_client = 200
+      this.gravity_client = 111
 
-      this.staking_clients = (this.atom_client + this.xtz_clients + this.osmo_client + this.juno_client + this.dvpn_client + this.band_client)
+
+      this.staking_clients = (this.atom_client + this.xtz_clients + this.osmo_client + this.juno_client + this.dvpn_client + this.band_client + this.gravity_client)
 
 
     //COMPUTE DAYS
