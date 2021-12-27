@@ -18,4 +18,18 @@ steps:
 - script: |
     npm install
     npm run build
+    npm run generate
   displayName: 'npm install and build'
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: 'swiss-staking.ch/dist'
+    includeRootFolder: true
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    replaceExistingArchive: true
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
