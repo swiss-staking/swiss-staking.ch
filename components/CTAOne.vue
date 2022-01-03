@@ -8,7 +8,7 @@
                         <div class="block-title">
                             <div class="block-title__text"><span>Our institutional clients.</span> <br> <span>Grow with us.</span></div><!-- /.block-title__text -->
                         </div><!-- /.block-title -->
-                        <p class="cta-one__text">As a dedicated staking operator, we are fully aligned with the interest of our clients. With our own digital assets locked up, we are fully engaged towards the success of each of the protocols where we operate.</p><!-- /.cta-one__text -->
+                        <p class="cta-one__text">As a dedicated staking operator, we are fully aligned with the interest of our clients. With our own digital assets locked up, we are fully engaged towards the success of each protocol we operate on.</p><!-- /.cta-one__text -->
                         <ul class="cta-one__list">
                             <li class="cta-one__list-item"><i class="fa fa-check"></i>Proven track record in staking protocols, oracle services, decentralized finance (DeFi) and privacy.</li> <br>
                             <li class="cta-one__list-item"><i class="fa fa-check"></i>Helping institutional clients and partners to run a validator or other services related to blockchains.</li> <br>
