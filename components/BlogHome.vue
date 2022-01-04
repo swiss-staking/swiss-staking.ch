@@ -2,7 +2,7 @@
   <section class="blog-one" id="networks">
         <div class="container">
             <div class="block-title text-center">
-                <div class="block-title__text"><span>Evolutionary, revolutionary, and</span> <br> <span>everything in-between.</span></div><!-- /.block-title__text -->
+                <div class="block-title__text"><span>Networks.</span> <br> <span>Evolutionary, revolutionary, and</span> <br> <span>everything in-between.</span></div><!-- /.block-title__text -->
             </div><!-- /.block-title -->
             <div class="row">
 

@@ -25,7 +25,7 @@
                   <div class="service-one__single">
                       <img src="/images/grafana.png" alt="">
                       <h3 class="service-one__title"><a href="#">24/7 <br> Monitoring</a></h3><!-- /.service-one__title -->
-                      <p class="service-one__text">We monitor our nodes 24/7 with state of the art monitoring and alerting systems. Years of experience in managing nodes helps us operating our nodes at high quality.</p><!-- /.service-one__text -->
+                      <p class="service-one__text">We monitor our nodes 24/7 with state of the art monitoring and alerting systems such as Prometheus and Grafana. Years of experience in managing nodes helps us operating our nodes at highest quality.</p><!-- /.service-one__text -->
                       <a href="#" class="service-one__link"><i class="nonid-icon-left-arrow"></i></a>
                   </div><!-- /.service-one__single -->
               </div><!-- /.col-lg-3 -->

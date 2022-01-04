@@ -1782,7 +1782,7 @@
                       <ul class="cta-three__list">
                           <li class="cta-three__list-item"><i class="fa fa-check"></i>Our nodes participate in the distributed consensus. The rewards made by Swiss Staking is directly distributed to the delegator's wallet.</li>
                           <br>
-                          <li class="cta-three__list-item"><i class="fa fa-check"></i>Swiss Staking takes full responsibility for downtime slashing. In such a case we refund our delegators with the amount of the slashed tokens.</li>
+                          <li class="cta-three__list-item"><i class="fa fa-check"></i>Swiss Staking actively participates in governance and votes in the best interest of each protocol.</li>
                           <br>
                           <li class="cta-three__list-item"><i class="fa fa-check"></i>By delegating, you only delegate your staking rights to us as a validator. You never hand over your private keys - you always have full control over your coins.</li>
                       </ul><!-- /.cta-three__list -->
