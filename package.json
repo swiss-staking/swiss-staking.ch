@@ -1,8 +1,8 @@
 {
-  "name": "nonid",
+  "name": "swiss-staking",
   "version": "1.0.0",
-  "description": "Vue Nuxt SEO &amp; Software Landing Page Template",
-  "author": "Layerdrops",
+  "description": "swiss based proof-of-stake validator",
+  "author": "creeea",
   "private": true,
   "scripts": {
     "dev": "nuxt",

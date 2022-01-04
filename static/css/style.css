@@ -630,13 +630,13 @@ hr.style-one {
 
 .site-footer__main-footer {
   padding-bottom: 120px;
-  padding-left: 20%;
+  padding-left: 10%;
 
 }
 
 .site-footer__main-footer .col-lg-2 {
   flex: 0 0 30%;
-  max-width: 30%;
+  max-width: 32%;
 
 }
 .site-footer__bottom-footer {

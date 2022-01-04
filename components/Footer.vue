@@ -18,7 +18,7 @@
                           </h3><!-- /.footer-widget__title -->
                           <ul class="footer-widget__link-list">
                               <li><a>Swiss Staking AG</a></li>
-                              <li><a >CHID: 23042-23442-2</a></li>
+                              <li><a >CH-100.3.813.452-8</a></li>
                               <li><a href="mailto:info@swiss-staking.ch">info@swiss-staking.ch</a></li>
                    
                           </ul><!-- /.footer-widget__link-list -->
@@ -33,7 +33,8 @@
                           <ul class="footer-widget__link-list">
                               <li><a href="https://swiss-staking.medium.com/" target="_blank">Blog</a></li>
                               <li><a href="https://twitter.com/@swiss_staking">Twitter</a></li>
-                              <li><a href="https://t.me/swissstaking" target="_blank">Telegram</a></li>
+                              <li><a href="https://t.me/swissstaking" target="_blank">Telegram Community</a></li>
+                              <li><a href="https://t.me/swiss_staking" target="_blank">Telegram DM</a></li>
                               <li><a href="">Terms of Service</a></li>
                           </ul><!-- /.footer-widget__link-list -->
                       </div><!-- /.footer-widget -->
