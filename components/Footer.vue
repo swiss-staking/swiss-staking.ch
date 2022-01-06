@@ -18,7 +18,7 @@
                           </h3><!-- /.footer-widget__title -->
                           <ul class="footer-widget__link-list">
                               <li><a>Swiss Staking AG</a></li>
-                              <li><a >CH-100.3.813.452-8</a></li>
+                              <li><a >CHE-393.362.886</a></li>
                               <li><a href="mailto:info@swiss-staking.ch">info@swiss-staking.ch</a></li>
                    
                           </ul><!-- /.footer-widget__link-list -->
@@ -61,7 +61,7 @@
       </div><!-- /.site-footer__main-footer -->
       <div class="site-footer__bottom-footer text-center">
           <div class="container">
-              <p>&copy; copyright 2021 by <a href="#">Swiss Staking AG</a></p>
+              <p>&copy; copyright 2022 by <a href="#">Swiss Staking AG</a></p>
           </div><!-- /.container -->
       </div><!-- /.site-footer__bottom-footer -->
           </footer>

@@ -1775,7 +1775,7 @@
               <div class="col-lg-6 col-md-12 col-sm-12 d-flex">
                   <div class="cta-three__content my-auto">
                       <div class="block-title">
-                          <div class="block-title__text"><span>Proof-Of-Stake.</span> <br> <span>An energy-efficient and incentivized</span><br> <span>algorithm.</span></div><!-- /.block-title__text -->
+                          <div class="block-title__text"><span>Proof-Of-Stake.</span> <br> <span>An energy-efficient</span><br><span>and incentivized</span><br> <span>algorithm.</span></div><!-- /.block-title__text -->
                       </div><!-- /.block-title -->
                       <p class="cta-three__text">In a PoS system, a blockchain appends and agrees on new blocks through a process where anyone who holds tokens of that blockchain can participate. The influence an agent has is proportional to the number of coins (or ‘stake’) it holds. This is a vastly more efficient alternative to PoW (‘mining’) and enables blockchains to operate without mining’s high hardware and electricity costs.
                           A DPos (Delegated Proof of Stake) or LPoS (Liquid Proof of Stake) allows token holders to delegate their validation rights to other token holders (validator) without transferring ownership to them.</p><!-- /.cta-three__text -->

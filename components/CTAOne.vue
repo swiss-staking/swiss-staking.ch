@@ -6,7 +6,7 @@
                 <div class="col-lg-6 d-flex">
                     <div class="cta-one__content my-auto">
                         <div class="block-title">
-                            <div class="block-title__text"><span>Trusted by institutional clients.</span></div><!-- /.block-title__text -->
+                            <div class="block-title__text"><span>Trusted by</span> <br> <span> institutional clients.</span></div><!-- /.block-title__text -->
                         </div><!-- /.block-title -->
                         <p class="cta-one__text">As a dedicated staking operator, we are fully aligned with the interest of our clients. With our own digital assets locked up, we are fully engaged towards the success of each protocol we operate on.</p><!-- /.cta-one__text -->
                         <ul class="cta-one__list">

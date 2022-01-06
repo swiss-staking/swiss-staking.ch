@@ -35,10 +35,10 @@
                       <div class="col-lg-6">
                           <div class="banner-one__content">
                               <div class="block-title">
-                                  <div class="block-title__text type-append-body"><span>Get rewarded by staking your </span> <br> <span>crypto assets</span> </div><!-- /.block-title__text -->
+                                  <div class="block-title__text type-append-body"><span>Get rewarded by</span><br> <span>staking your </span> <br> <span>crypto assets</span> </div><!-- /.block-title__text -->
                               </div><!-- /.block-title -->
-                              <p class="banner-one__text">Swiss Staking is an ever-expanding proof-of-stake validator and venture fund based in Switzerland. We offer "Staking as a Service" for thousands of people around the world and invest in disruptive DLT networks. </p><!-- /.banner-one__text -->
-                            <a href="#" class="banner-one__btn">Get Started</a>
+                              <p class="banner-one__text">Swiss Staking is an ever-expanding proof-of-stake validator and venture fund based in Switzerland. We offer "Staking as a Service" and back the blockchain protocols of tomorrow. </p><!-- /.banner-one__text -->
+                            <a href="#networks" class="banner-one__btn">Get Started</a>
                               
                             <!-- FUN_FACT --> 
                            
@@ -107,7 +107,7 @@ import countTo from 'vue-count-to';
       .then(xtz_staked => xtz_staked.json())
       .then(json => this.xtz_staked = json.stakingBalance);
       
-      this.atom_staked = 620000
+      this.atom_staked = 720000
       this.avax_staked = 6000
       this.osmosis_staked = 140000
       this.juno_staked = 600000
@@ -149,11 +149,11 @@ import countTo from 'vue-count-to';
       .then(delegators => delegators.json())
       this.xtz_clients = Object.keys(delegators).length;
 
-      this.atom_client = 1200
+      this.atom_client = 1252
       this.osmo_client = 197
       this.juno_client = 350
       this.dvpn_client = 6
-      this.band_client = 200
+      this.band_client = 188
       this.gravity_client = 111
 
 

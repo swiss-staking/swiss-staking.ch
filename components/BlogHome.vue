@@ -2,7 +2,7 @@
   <section class="blog-one" id="networks">
         <div class="container">
             <div class="block-title text-center">
-                <div class="block-title__text"><span>Networks.</span> <br> <span>Evolutionary, revolutionary, and</span> <br> <span>everything in-between.</span></div><!-- /.block-title__text -->
+                <div class="block-title__text"><span>Evolutionary, revolutionary, and</span> <br> <span>everything in-between.</span></div><!-- /.block-title__text -->
             </div><!-- /.block-title -->
             <div class="row">
 
@@ -94,7 +94,7 @@
                             <h3 class="blog-one__title"><nuxt-link to="/blog-details">Juno</nuxt-link></h3>
                             <p class="blog-one__text">Juno is an interoperable smart contract network. Highly scalable, robust, secure and easy to deploy - built on the Cosmos SDK.</p>
                             </div>
-                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 1% fee</a>
+                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 5% fee</a>
                             <a  class="blog-one__btn" href="https://ping.pub/juno/staking/junovaloper1y0us8xvsvfvqkk9c6nt5cfyu5au5tww2wsdcwk" target="blank" >Delegate</a>                             
                             </div>
                             
@@ -211,7 +211,7 @@
                             <h3 class="blog-one__title">Anoma</h3>
                             <p class="blog-one__text">A sovereign, proof-of-stake blockchain protocol that enables private, asset-agnostic cash and private bartering among any number of parties.</p>
                             </div>
-                            <div class="blog__footer"><a class="blog-one__dev">Mainnet</a>
+                            <div class="blog__footer"><a class="blog-one__dev">Testnet</a>
                             <a target="_blank" class="blog-one__btn">N/A</a>                           
                            
                             </div>
@@ -251,11 +251,11 @@
                             <img src="/images/gravity.png" alt="">
                             </div>
                             <div>
-                            <h3 class="blog-one__title">Gravity Brdige</h3>
+                            <h3 class="blog-one__title">Gravity Bridge</h3>
                             <p class="blog-one__text">Gravity will be able to bring ERC20 assets from Ethereum into Cosmos, as well as Cosmos assets to Ethereum ERC20 representations.</p>
                             <br>
                             </div>
-                            <div><a class="blog-one__dev">Mainnet, 0% Fee</a>
+                            <div><a class="blog-one__dev">Mainnet, 5% Fee</a>
                             <a href="https://www.mintscan.io/gravity-bridge/validators/gravityvaloper1z5nxs28a8krdhv6z6jw7gs5k6qr43xycr8wc6k" target="_blank" class="blog-one__btn">Delegate</a>                     
 
                             </div>

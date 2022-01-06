@@ -9,7 +9,7 @@
             <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="/images/gilles.png" width=70% alt=""></div>
-              <a class="name">Gilles V.</a>
+              <a class="name">Gilles, Co-Founder</a>
               
           
             </div>
@@ -26,7 +26,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="/images/seb.png" width=70% alt=""></div>
-              <a class="name">Sébastian V.</a>
+              <a class="name">Sébastian, Co-Founder</a>
             
             </div>
             </div>
