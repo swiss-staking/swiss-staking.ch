@@ -46,41 +46,7 @@
                                 </div><!-- /.col-lg-5 -->
                             </div><!-- /.row -->
 
-                            <div class="fun-fact-one__box-wrapper">
-
-                            <div class="fun-fact-one__single">
-                                <div class="inner-block">
-                                    <h3 class="fun-fact-one__title counter">
-                                        <countTo v-if="hasData" :startVal='0' :endVal='startCounter ? staking_value : 0' :duration='3000'></countTo>
-                                    </h3><!-- /.fun-fact-one__title -->
-                                    <p class="fun-fact-one__text">
-                                        Staking Value $
-                                    </p><!-- /.fun-fact-one__text -->
-                                </div><!-- /.inner-block -->
-                            </div><!-- /.fun-fact-one__single -->
-                            <div class="fun-fact-one__single">
-                                <div class="inner-block">
-                                    <h3 class="fun-fact-one__title counter">
-                                    <countTo v-if="hasData" :startVal='0' :endVal='startCounter ? staking_clients : 0' :duration='3000'>></countTo>
-                                    </h3><!-- /.fun-fact-one__title -->
-                                    <p class="fun-fact-one__text">
-                                        clients
-                                    </p><!-- /.fun-fact-one__text -->
-                                </div><!-- /.inner-block -->
-                            </div><!-- /.fun-fact-one__single -->
-                            <div class="fun-fact-one__single">
-                                <div class="inner-block">
-                                    <h3 class="fun-fact-one__title counter">
-                                        <countTo v-if="hasData" :startVal='0' :endVal='startCounter ? this.days: 0' :duration='3000'></countTo>
-                                    </h3><!-- /.fun-fact-one__title -->
-                                    <p class="fun-fact-one__text">
-                                        days of experience
-                                    </p><!-- /.fun-fact-one__text -->
-                                </div><!-- /.inner-block -->
-                            </div><!-- /.fun-fact-one__single -->
-                            
-                        </div><!-- /.fun-fact-one_box-wrapper -->
-                        <!-- END - FUN_FACT --> 
+                           
               </div><!-- /.container -->
           </section>
 </template>
