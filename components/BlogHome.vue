@@ -15,7 +15,7 @@
                             </div>
                             <div>
                             <h3 class="blog-one__title"><nuxt-link to="/blog-details">Cosmos</nuxt-link></h3>
-                            <p class="blog-one__text">The Cosmos Network is a decentralized network of independent, scalable, and interoperable blockchains.</p>
+                            <p class="blog-one__text">The Cosmos Network is a decentralized network and the economic center of independent, scalable, and interoperable (IBC) blockchains.</p>
                             </div>
                             <div class="blog__footer"><a class="blog-one__dev">Mainnet, 1% fee</a>
                             <a  class="blog-one__btn" href="https://ping.pub/cosmos/staking/cosmosvaloper1y0us8xvsvfvqkk9c6nt5cfyu5au5tww2ztve7q" target="blank" >Delegate</a>
@@ -24,46 +24,48 @@
                         </div><!-- /.blog-one__single-inner-block -->
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
+
+                <div class="col-lg-4"><!-- Nym-->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">15 November, 2021</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/nym.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Nym</h3>
+                            <p class="blog-one__text">Nym is developing a privacy infrastructure to prevent data leakage by protecting every packet’s metadata at the network and application layers.</p>
+                            </div>
+                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 5% fee</a>
+                            <a target="_blank" href ="https://explorer.nym.nodes.guru/validator/nvaloper1ef8fjswyuxnv9779qfug042aca8hevenvnfcfm" class="blog-one__btn">Explorer</a>                           
+                           
+                            </div>
+                                     
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
+
+                  <div class="col-lg-4"><!-- Evmos-->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">1 November, 2021</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/evmos.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Evmos</h3>
+                            <p class="blog-one__text">Evmos serves as the first IBC-compatible EVM-based chain, bringing composability, interoperability, and fast finality to Ethereum.</p>
+                            </div>
+                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 5% fee</a>
+                            <a target="_blank" href="https://wallet.keplr.app/#/evmos/stake?modal=stake&validator=evmosvaloper1vw76ju5rwt9us7kz8tg42t6yfmq2jftydu74u6" class="blog-one__btn">Delegate</a>                           
+                           
+                            </div>
+                                     
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
                 
                                 
-                <div class="col-lg-4"><!-- Tezos -->
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-inner-block">
-                            <div class="blog-one__date">15 July, 2018</div><!-- /.blog-one__date -->
-                            <div class="blog-one__image">
-                            <img src="/images/tezos.png" alt="">
-                            </div>
-                            <div>
-                            <h3 class="blog-one__title"><nuxt-link to="/blog-details">Tezos</nuxt-link></h3>
-                            <p class="blog-one__text">Tezos is a new decentralized blockchain that governs itself by establishing a true digital commonwealth.</p>
-                            </div>
-                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 10% fee</a>
-                            <a  class="blog-one__btn" href="https://tzstats.com/tz1hAYfexyzPGG6RhZZMpDvAHifubsbb6kgn" target="blank" >Delegate</a>                                                 
-                            </div>
-                           
-                        </div><!-- /.blog-one__single-inner-block -->
-                    </div><!-- /.blog-one__single -->
-                </div><!-- /.col-lg-4 -->
-
-
-                <div class="col-lg-4"><!-- Avalanche -->
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-inner-block">
-                            <div class="blog-one__date">1 October, 2020</div><!-- /.blog-one__date -->
-                            <div class="blog-one__image">
-                            <img src="/images/avalanche.png" alt="">
-                            </div>
-                            <div>
-                            <h3 class="blog-one__title"><nuxt-link to="/blog-details">Avalanche</nuxt-link></h3>
-                            <p class="blog-one__text">Avalanche is a breakthrough consensus protocol that is secure, decentralized, and achieves high performance.</p>
-                            </div>
-                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 10% fee</a>
-                            <a  target="_blank" class="blog-one__btn" v-on:click="avax_alert">Info</a>                             
-                            </div>
-                        </div><!-- /.blog-one__single-inner-block -->
-                    </div><!-- /.blog-one__single -->
-                </div><!-- /.col-lg-4 -->
-
                 <div class="col-lg-4"><!-- Osmosis -->
                     <div class="blog-one__single">
                         <div class="blog-one__single-inner-block">
@@ -161,25 +163,28 @@
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
 
-                <div class="col-lg-4"><!-- Nym-->
+                <div class="col-lg-4"><!-- Tezos -->
                     <div class="blog-one__single">
                         <div class="blog-one__single-inner-block">
-                            <div class="blog-one__date">15 November, 2021</div><!-- /.blog-one__date -->
+                            <div class="blog-one__date">15 July, 2018</div><!-- /.blog-one__date -->
                             <div class="blog-one__image">
-                            <img src="/images/nym.png" alt="">
+                            <img src="/images/tezos.png" alt="">
                             </div>
                             <div>
-                            <h3 class="blog-one__title">Nym</h3>
-                            <p class="blog-one__text">Nym is developing the next generation infrastructure to prevent data leakage by protecting every packet’s metadata at the network and application layers.</p>
+                            <h3 class="blog-one__title"><nuxt-link to="/blog-details">Tezos</nuxt-link></h3>
+                            <p class="blog-one__text">Tezos is a platform that addresses key barriers facing blockchain adoption for assets and applications backed by a global community of validators, researchers, and builders.</p>
                             </div>
-                            <div class="blog__footer"><a class="blog-one__dev">Testnet</a>
-                            <a target="_blank" class="blog-one__btn">N/A</a>                           
+                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 10% fee</a>
+                            <a  class="blog-one__btn" href="https://tzstats.com/tz1hAYfexyzPGG6RhZZMpDvAHifubsbb6kgn" target="blank" >Delegate</a>                                                 
+                            </div>
                            
-                            </div>
-                                     
                         </div><!-- /.blog-one__single-inner-block -->
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
+
+
+
+                
 
                 <div class="col-lg-4"><!-- Sentinel-->
                     <div class="blog-one__single">
@@ -220,25 +225,27 @@
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
 
-                <div class="col-lg-4"><!-- Evmos-->
+                  
+                <div class="col-lg-4"><!-- Avalanche -->
                     <div class="blog-one__single">
                         <div class="blog-one__single-inner-block">
-                            <div class="blog-one__date">1 November, 2021</div><!-- /.blog-one__date -->
+                            <div class="blog-one__date">1 October, 2020</div><!-- /.blog-one__date -->
                             <div class="blog-one__image">
-                            <img src="/images/evmos.png" alt="">
+                            <img src="/images/avalanche.png" alt="">
                             </div>
                             <div>
-                            <h3 class="blog-one__title">Evmos</h3>
-                            <p class="blog-one__text">Evmos serves as the first IBC-compatible EVM-based chain, bringing composability, interoperability, and fast finality to Ethereum.</p>
+                            <h3 class="blog-one__title"><nuxt-link to="/blog-details">Avalanche</nuxt-link></h3>
+                            <p class="blog-one__text">Avalanche is the fastest smart contracts platform in the blockchain industry, as measured by time-to-finality with EVM compatibility.</p>
                             </div>
-                            <div class="blog__footer"><a class="blog-one__dev">Testnet</a>
-                            <a target="_blank" class="blog-one__btn">N/A</a>                           
-                           
+                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 10% fee</a>
+                            <a  target="_blank" class="blog-one__btn" v-on:click="avax_alert">Info</a>                             
                             </div>
-                                     
                         </div><!-- /.blog-one__single-inner-block -->
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
+
+
+              
 
 
                
@@ -276,8 +283,8 @@
                             <h3 class="blog-one__title">Umee</h3>
                             <p class="blog-one__text">Umee connects users to create lending and borrowing positions, move capital across chains, discover new yield opportunities and explore DeFi applications intersecting networks.</p>
                             </div>
-                            <div><a class="blog-one__dev">Testnet</a>
-                            <a href="https://gravity-wars.umee.nodes.guru/validator/umeevaloper19yy0u0ttam2p9k874vsh2u4tt7e6cmq8h2w9nv" target="_blank" class="blog-one__btn">N/A</a>                     
+                            <div><a class="blog-one__dev">Mainnet, 2% fee</a>
+                            <a href="https://wallet.keplr.app/#/umee/stake?modal=stake&validator=umeevaloper19yy0u0ttam2p9k874vsh2u4tt7e6cmq8h2w9nv" target="_blank" class="blog-one__btn">Delegate</a>                     
                            
                             </div>
                                      

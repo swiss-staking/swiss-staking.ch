@@ -999,49 +999,49 @@ hr.style-one {
 }
 
 .blog-one [class*=col-]:nth-child(2) .blog-one__date {
-  background-color: #7E9AE0;
+  background-color: #d46336;
 }
 .blog-one [class*=col-]:nth-child(2) .blog-one__author {
-  color: #7E9AE0;
+  color: #d46336;
 }
 .blog-one [class*=col-]:nth-child(2) .blog-one__single-inner-block:hover {
-  background-color: #7E9AE0;
+  background-color: #d46336;
 }
 
-.blog-one [class*=col-]:nth-child(2) .blog-one__btn {
-  color: #7E9AE0;
-  border-color: #7E9AE0 ;
+.blog-one [class*=col-]:nth-child(2)  .blog-one__btn {
+  color: #d46336;
+  border-color: #d46336 ;
 }
 
 .blog-one [class*=col-]:nth-child(2) .blog-one__single-inner-block:hover .blog-one__date {
   background-color: #fff;
-  color: #7E9AE0;
+  color: #d46336;
 }
 .blog-one [class*=col-]:nth-child(2) .blog-one__single-inner-block:hover .blog-one__title a,
 .blog-one [class*=col-]:nth-child(2) .blog-one__single-inner-block:hover .blog-one__text,
-.blog-one [class*=col-]:nth-child(2) .blog-one__single-inner-block:hover .blog-one__link,
-.blog-one [class*=col-]:nth-child(2) .blog-one__single-inner-block:hover .blog-one__author {
+.blog-one [class*=col-]:nth-child(2) .blog-one__single-inner-block:hover .blog-one__link {
   color: #fff;
 }
 
+
 .blog-one [class*=col-]:nth-child(3) .blog-one__date {
-  background-color: #EF4059;
+  background-color: #101213a2;
 }
 .blog-one [class*=col-]:nth-child(3) .blog-one__author {
-  color: #EF4059;
+  color: #101213a2;
 }
 .blog-one [class*=col-]:nth-child(3) .blog-one__single-inner-block:hover {
-  background-color: #EF4059;
+  background-color: #101213a2;
 }
 
 .blog-one [class*=col-]:nth-child(3)  .blog-one__btn {
-  color: #EF4059;
-  border-color: #EF4059 ;
+  color: #101213a2;
+  border-color: #101213a2 ;
 }
 
 .blog-one [class*=col-]:nth-child(3) .blog-one__single-inner-block:hover .blog-one__date {
   background-color: #fff;
-  color: #EF4059;
+  color: #101213a2;
 }
 .blog-one [class*=col-]:nth-child(3) .blog-one__single-inner-block:hover .blog-one__title a,
 .blog-one [class*=col-]:nth-child(3) .blog-one__single-inner-block:hover .blog-one__text,
@@ -1049,6 +1049,7 @@ hr.style-one {
 .blog-one [class*=col-]:nth-child(3) .blog-one__single-inner-block:hover .blog-one__author {
   color: #fff;
 }
+
 
 .blog-one [class*=col-]:nth-child(4) .blog-one__date {
   background-color: #ED539B;
@@ -1179,27 +1180,28 @@ hr.style-one {
 }
 
 .blog-one [class*=col-]:nth-child(9) .blog-one__date {
-  background-color: #d46336;
+  background-color: #7E9AE0;
 }
 .blog-one [class*=col-]:nth-child(9) .blog-one__author {
-  color: #d46336;
+  color: #7E9AE0;
 }
 .blog-one [class*=col-]:nth-child(9) .blog-one__single-inner-block:hover {
-  background-color: #d46336;
+  background-color: #7E9AE0;
 }
 
-.blog-one [class*=col-]:nth-child(9)  .blog-one__btn {
-  color: #d46336;
-  border-color: #d46336 ;
+.blog-one [class*=col-]:nth-child(9) .blog-one__btn {
+  color: #7E9AE0;
+  border-color: #7E9AE0 ;
 }
 
 .blog-one [class*=col-]:nth-child(9) .blog-one__single-inner-block:hover .blog-one__date {
   background-color: #fff;
-  color: #d46336;
+  color: #7E9AE0;
 }
 .blog-one [class*=col-]:nth-child(9) .blog-one__single-inner-block:hover .blog-one__title a,
 .blog-one [class*=col-]:nth-child(9) .blog-one__single-inner-block:hover .blog-one__text,
-.blog-one [class*=col-]:nth-child(9) .blog-one__single-inner-block:hover .blog-one__link {
+.blog-one [class*=col-]:nth-child(9) .blog-one__single-inner-block:hover .blog-one__link,
+.blog-one [class*=col-]:nth-child(9) .blog-one__single-inner-block:hover .blog-one__author {
   color: #fff;
 }
 
@@ -1261,23 +1263,23 @@ hr.style-one {
 
 
 .blog-one [class*=col-]:nth-child(12) .blog-one__date {
-  background-color: #3B699B;
+  background-color: #EF4059;
 }
 .blog-one [class*=col-]:nth-child(12) .blog-one__author {
-  color: #3B699B;
+  color: #EF4059;
 }
 .blog-one [class*=col-]:nth-child(12) .blog-one__single-inner-block:hover {
-  background-color: #3B699B;
+  background-color: #EF4059;
 }
 
 .blog-one [class*=col-]:nth-child(12)  .blog-one__btn {
-  color: #3B699B;
-  border-color: #3B699B ;
+  color: #EF4059;
+  border-color: #EF4059 ;
 }
 
 .blog-one [class*=col-]:nth-child(12) .blog-one__single-inner-block:hover .blog-one__date {
   background-color: #fff;
-  color: #3B699B;
+  color: #EF4059;
 }
 .blog-one [class*=col-]:nth-child(12) .blog-one__single-inner-block:hover .blog-one__title a,
 .blog-one [class*=col-]:nth-child(12) .blog-one__single-inner-block:hover .blog-one__text,

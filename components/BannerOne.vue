@@ -107,12 +107,13 @@ import countTo from 'vue-count-to';
       .then(xtz_staked => xtz_staked.json())
       .then(json => this.xtz_staked = json.stakingBalance);
       
-      this.atom_staked = 720000
+      this.atom_staked = 820000
       this.avax_staked = 6000
-      this.osmosis_staked = 140000
-      this.juno_staked = 600000
+      this.osmosis_staked = 220000
+      this.juno_staked = 700000
       this.dvpn_staked = 100000000
       this.band_staked = 170000
+      this.evmos_staked = 126000
 
       const xtz_usd = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=tezos&vs_currencies=usd")
       .then(xtz_usd => xtz_usd.json())
@@ -149,15 +150,17 @@ import countTo from 'vue-count-to';
       .then(delegators => delegators.json())
       this.xtz_clients = Object.keys(delegators).length;
 
-      this.atom_client = 1252
-      this.osmo_client = 197
-      this.juno_client = 350
-      this.dvpn_client = 6
+      this.atom_client = 3545
+      this.osmo_client = 3141
+      this.juno_client = 354
+      this.dvpn_client = 4
       this.band_client = 188
       this.gravity_client = 111
+      this.evmos_client = 500
+      this.umee_cient = 222
 
 
-      this.staking_clients = (this.atom_client + this.xtz_clients + this.osmo_client + this.juno_client + this.dvpn_client + this.band_client + this.gravity_client)
+      this.staking_clients = (this.atom_client + this.xtz_clients + this.osmo_client + this.juno_client + this.dvpn_client + this.band_client + this.gravity_client + this.umee_cient + this.evmos_client)
 
 
     //COMPUTE DAYS
