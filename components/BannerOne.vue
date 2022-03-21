@@ -87,7 +87,7 @@
 <script>
 import countTo from 'vue-count-to';
   import { ObserveVisibility } from 'vue-observe-visibility'
-
+  
     export default {
       name: "BannerOne",
       components: { countTo },
@@ -102,18 +102,34 @@ import countTo from 'vue-count-to';
       async mounted() {
     try {
 
+
       //COMPUTE STAKING VALUE
+      const UNIT=1000000
       const xtz_staked = await fetch("https://api.baking-bad.org/v1/bakers/tz1hAYfexyzPGG6RhZZMpDvAHifubsbb6kgn")
       .then(xtz_staked => xtz_staked.json())
       .then(json => this.xtz_staked = json.stakingBalance);
-      
-      this.atom_staked = 820000
-      this.avax_staked = 6000
-      this.osmosis_staked = 220000
-      this.juno_staked = 700000
+
+
+      var atom_staked = await fetch("https://cosmos.api.ping.pub/staking/validators/cosmosvaloper1y0us8xvsvfvqkk9c6nt5cfyu5au5tww2ztve7q")
+      .then(atom_staked => atom_staked.json())
+      .then(json => this.atom_staked = json["result"]['tokens']);
+      this.atom_staked = parseInt(atom_staked/UNIT)
+
+      var osmosis_staked = await fetch("https://lcd-osmosis.blockapsis.com/staking/validators/osmovaloper1y0us8xvsvfvqkk9c6nt5cfyu5au5tww24nrlnx")
+      .then(osmosis_staked => osmosis_staked.json())
+      .then(json => this.osmosis_staked = json["result"]['tokens']);
+      this.osmosis_staked = parseInt(osmosis_staked/UNIT)
+  
+      var juno_staked = await fetch("https://lcd-juno.itastakers.com/staking/validators/junovaloper1y0us8xvsvfvqkk9c6nt5cfyu5au5tww2wsdcwk")
+      .then(juno_staked => juno_staked.json())
+      .then(json => this.juno_staked = json["result"]['tokens']);
+      this.juno_staked = parseInt(juno_staked/UNIT)
+
       this.dvpn_staked = 100000000
       this.band_staked = 170000
       this.evmos_staked = 126000
+      this.avax_staked = 6000
+
 
       const xtz_usd = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=tezos&vs_currencies=usd")
       .then(xtz_usd => xtz_usd.json())
@@ -149,10 +165,23 @@ import countTo from 'vue-count-to';
       const delegators = await fetch("https://api.tzkt.io/v1/accounts/tz1hAYfexyzPGG6RhZZMpDvAHifubsbb6kgn/delegators")
       .then(delegators => delegators.json())
       this.xtz_clients = Object.keys(delegators).length;
+      
+      const atom_client = await fetch("https://api.mintscan.io/v1/cosmos/validators/cosmosvaloper1y0us8xvsvfvqkk9c6nt5cfyu5au5tww2ztve7q/delegators?limit=45")
+      .then(atom_client => atom_client.json())
+      .then(json => this.atom_client = json['total_count']);
+      console.log(atom_client)
 
-      this.atom_client = 3545
-      this.osmo_client = 3141
-      this.juno_client = 354
+      const osmo_client = await fetch("https://api.mintscan.io/v1/osmosis/validators/osmovaloper1y0us8xvsvfvqkk9c6nt5cfyu5au5tww24nrlnx/delegators?limit=45&offset=0")
+      .then(osmo_client => osmo_client.json())
+      .then(json => this.osmo_client = json['total_count']);
+      console.log(osmo_client)
+
+      const juno_client = await fetch("https://api.mintscan.io/v1/juno/validators/junovaloper1y0us8xvsvfvqkk9c6nt5cfyu5au5tww2wsdcwk/delegators?limit=45&offset=0")
+      .then(juno_client => juno_client.json())
+      .then(json => this.juno_client = json['total_count']);
+      console.log(juno_client)
+
+      
       this.dvpn_client = 4
       this.band_client = 188
       this.gravity_client = 111
@@ -181,7 +210,6 @@ import countTo from 'vue-count-to';
         async onVisibilityChange (isVisible) {
           if (isVisible){
             //await new Promise(resolve => setTimeout(resolve, 3000))
-            console.log("Wait 3s")
             this.startCounter = true;
           }
 

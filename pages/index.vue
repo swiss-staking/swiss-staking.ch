@@ -1,5 +1,9 @@
 <template>
+    
+    
+
   <div>
+    <PageLoader />
     <NavOne />
     <BannerOne />
     <ServiceOne />
@@ -11,6 +15,7 @@
   </div>
 </template>
 <script>
+  import PageLoader from '../components/PageLoader'
   import NavOne from "../components/NavOne";
   import BannerOne from "../components/BannerOne";
   import Footer from "../components/Footer";
@@ -28,7 +33,8 @@
       Footer,
       BannerOne,
       NavOne,
-      Team
+      Team,
+      PageLoader
     }
   }
 </script>
