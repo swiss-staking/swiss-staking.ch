@@ -118,7 +118,7 @@ import countTo from 'vue-count-to';
 
 
       //COMPUTE STAKING VALUE
-      const data = await fetch("https://207.180.255.81:6677/stats")
+      const data = await fetch("https://services.swiss-staking.ch:6677/stats")
       .then(stats => stats.json())
       .then(json => this.data = json);
       console.log(data)
