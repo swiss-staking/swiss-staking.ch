@@ -245,12 +245,7 @@
                         </div><!-- /.blog-one__single-inner-block -->
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
-
-
-              
-
-
-               
+ 
 
                 <div class="col-lg-4"><!-- Gravity -->
                     <div class="blog-one__single">
