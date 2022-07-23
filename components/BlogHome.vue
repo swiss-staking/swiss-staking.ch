@@ -143,25 +143,27 @@
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
 
-                <div class="col-lg-4"><!-- Band -->
+                
+                <div class="col-lg-4"><!-- Umee -->
                     <div class="blog-one__single">
                         <div class="blog-one__single-inner-block">
-                            <div class="blog-one__date">15 November, 2021</div><!-- /.blog-one__date -->
+                            <div class="blog-one__date">21. December, 2021</div><!-- /.blog-one__date -->
                             <div class="blog-one__image">
-                            <img src="/images/band.png" alt="">
+                            <img src="/images/umee.png" alt="">
                             </div>
                             <div>
-                            <h3 class="blog-one__title">Band</h3>
-                            <p class="blog-one__text">Secure, scalable and decentralized Oracle. Band Protocol is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts.</p>
+                            <h3 class="blog-one__title">Umee</h3>
+                            <p class="blog-one__text">Umee connects users to create lending and borrowing positions, move capital across chains, discover new yield opportunities and explore DeFi applications intersecting networks.</p>
                             </div>
-                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 5% fee</a>                      
-                             <a href="https://ping.pub/band-protocol/staking/bandvaloper1nzfwx85yjjar55fft72vj72lg6pfgzfz6dsrgm" target="_blank" class="blog-one__btn">Delegate</a>                           
-
+                            <div><a class="blog-one__dev">Mainnet, 2% fee</a>
+                            <a href="https://wallet.keplr.app/#/umee/stake?modal=stake&validator=umeevaloper19yy0u0ttam2p9k874vsh2u4tt7e6cmq8h2w9nv" target="_blank" class="blog-one__btn">Delegate</a>                     
+                           
                             </div>
                                      
                         </div><!-- /.blog-one__single-inner-block -->
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
+
 
                 <div class="col-lg-4"><!-- Tezos -->
                     <div class="blog-one__single">
@@ -272,25 +274,6 @@
                 </div><!-- /.col-lg-4 -->
 
 
-                <div class="col-lg-4"><!-- Umee -->
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-inner-block">
-                            <div class="blog-one__date">21. December, 2021</div><!-- /.blog-one__date -->
-                            <div class="blog-one__image">
-                            <img src="/images/umee.png" alt="">
-                            </div>
-                            <div>
-                            <h3 class="blog-one__title">Umee</h3>
-                            <p class="blog-one__text">Umee connects users to create lending and borrowing positions, move capital across chains, discover new yield opportunities and explore DeFi applications intersecting networks.</p>
-                            </div>
-                            <div><a class="blog-one__dev">Mainnet, 2% fee</a>
-                            <a href="https://wallet.keplr.app/#/umee/stake?modal=stake&validator=umeevaloper19yy0u0ttam2p9k874vsh2u4tt7e6cmq8h2w9nv" target="_blank" class="blog-one__btn">Delegate</a>                     
-                           
-                            </div>
-                                     
-                        </div><!-- /.blog-one__single-inner-block -->
-                    </div><!-- /.blog-one__single -->
-                </div><!-- /.col-lg-4 -->
 
 
             </div><!-- /.row -->

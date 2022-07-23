@@ -1154,23 +1154,23 @@ hr.style-one {
 }
 
 .blog-one [class*=col-]:nth-child(8) .blog-one__date {
-  background-color: #6f53f0;
+  background-color: #7fbbfc;
 }
 .blog-one [class*=col-]:nth-child(8) .blog-one__author {
-  color: #6f53f0;
+  color: #7fbbfc;
 }
 .blog-one [class*=col-]:nth-child(8) .blog-one__single-inner-block:hover {
-  background-color: #6f53f0;
+  background-color: #7fbbfc;
 }
 
 .blog-one [class*=col-]:nth-child(8)  .blog-one__btn {
-  color: #6f53f0;
-  border-color: #6f53f0 ;
+  color: #7fbbfc;
+  border-color: #7fbbfc;
 }
 
 .blog-one [class*=col-]:nth-child(8) .blog-one__single-inner-block:hover .blog-one__date {
   background-color: #fff;
-  color: #6f53f0;
+  color: #7fbbfc;
 }
 .blog-one [class*=col-]:nth-child(8) .blog-one__single-inner-block:hover .blog-one__title a,
 .blog-one [class*=col-]:nth-child(8) .blog-one__single-inner-block:hover .blog-one__text,
@@ -1314,33 +1314,6 @@ hr.style-one {
   color: #fff;
 }
 
-
-
-.blog-one [class*=col-]:nth-child(14) .blog-one__date {
-  background-color: #7fbbfc;
-}
-.blog-one [class*=col-]:nth-child(14) .blog-one__author {
-  color: #7fbbfc;
-}
-.blog-one [class*=col-]:nth-child(14) .blog-one__single-inner-block:hover {
-  background-color: #7fbbfc;
-}
-
-.blog-one [class*=col-]:nth-child(14)  .blog-one__btn {
-  color: #3B699B;
-  border-color: #7fbbfc;
-}
-
-.blog-one [class*=col-]:nth-child(14) .blog-one__single-inner-block:hover .blog-one__date {
-  background-color: #fff;
-  color: #7fbbfc;
-}
-.blog-one [class*=col-]:nth-child(14) .blog-one__single-inner-block:hover .blog-one__title a,
-.blog-one [class*=col-]:nth-child(14) .blog-one__single-inner-block:hover .blog-one__text,
-.blog-one [class*=col-]:nth-child(14) .blog-one__single-inner-block:hover .blog-one__link,
-.blog-one [class*=col-]:nth-child(14) .blog-one__single-inner-block:hover .blog-one__author {
-  color: #fff;
-}
 
 .blog-one__blog-page {
   background-color: #fff;
@@ -1668,7 +1641,7 @@ hr.style-one {
 }
 .fun-fact-one__single .inner-block {
 
-  width: 220px;
+  width: 180px;
   height: 100px;
   position: relative;
   display: -webkit-box;
@@ -1701,11 +1674,14 @@ hr.style-one {
   border-bottom: 3px solid #C71F2C;
 }
 
+.fun-fact-one__single:nth-child(4) {
+  border-bottom: 3px solid #C71F2C;
+}
 .fun-fact-one__title {
   margin: 0;
   color: #2e3d62b2;
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 44px;
+  font-weight: 300;
   line-height: 1em;
 }
 .fun-fact-one__text {
@@ -1714,7 +1690,7 @@ hr.style-one {
   font-size: 12px;
   line-height: 1em;
   color: #666E82;
-  font-weight: 600;
+  font-weight: 300;
   text-transform: uppercase;
   letter-spacing: .2em;
   margin-top: 20px;
