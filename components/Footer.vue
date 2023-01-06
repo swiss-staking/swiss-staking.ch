@@ -49,7 +49,7 @@
                               <li><a href="https://t.me/cosmosDE" target="_blank">Cosmos (German)</a></li>
                               <li><a href="https://t.me/nymger" target="_blank">Nym (German)</a></li>
                               <li><a href="https://t.me/EvmosOrg" target="_blank">Evmos (English)</a></li>
-                              <li><a href="https://t.me/EvmosDE" target="_blank">Evmos (German))</a></li>
+                              <li><a href="https://t.me/EvmosDE" target="_blank">Evmos (German)</a></li>
                               <li><a href="https://t.me/+TszFVcvKwIUJ5WUW" target="_blank">Bitcoin (German)</a></li>
                               <li><a href="https://t.me/cryptozeals" target="_blank">Research Calls (German)</a></li>
                           </ul><!-- /.footer-widget__link-list -->
