@@ -146,7 +146,23 @@
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
 
-                                
+                <div class="col-lg-4 avalanche"><!-- Avalanche -->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">1 October, 2020</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/avalanche.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Avalanche</h3>
+                            <p class="blog-one__text">Avalanche is the fastest smart contracts platform in the blockchain industry, as measured by time-to-finality with EVM compatibility.</p>
+                            </div>
+                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 10% fee</a>
+                            <a  target="_blank" class="blog-one__btn" v-on:click="avax_alert">Info</a>                             
+                            </div>
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
 
 
                 <div class="col-lg-4 juno"><!-- Juno -->
@@ -231,9 +247,85 @@
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
 
-
-
                 
+                <div class="col-lg-4 stride"><!-- Stride -->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">04 September, 2022</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/stride.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Stride</h3>
+                            <p class="blog-one__text">Stride provides liquidity for staked assets. Using Stride, you can earn both staking and DeFi yields across the IBC ecosystem.</p>
+                            </div>
+                            <div> <a class="blog-one__dev">Mainnet, 0% fee</a>
+                            <a  class="blog-one__btn" href="https://ping.pub/stride/staking/stridevaloper1x0agh4jnvamn6y5ss94s6ktugwkljp6y2tkj0w" target="blank" >Delegate</a>                                                 
+                            </div>
+                           
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
+
+                <div class="col-lg-4 injective"><!-- injective -->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">22 August, 2022</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/injective.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Injective</h3>
+                            <p class="blog-one__text">Injective is an open interoperable smart contracts layer-one blockchain network optimized for decentralized finance applications.</p>
+                            </div>
+                            <div> <a class="blog-one__dev">Mainnet, 0% fee</a>
+                            <a  class="blog-one__btn" href="https://hub.injective.network/validators/injvaloper1r4lvwh0pmkmjewa76rem7ndr0z8zg3pseyfpux" target="blank" >Delegate</a>                                                 
+                            </div>
+                           
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
+
+
+                <div class="col-lg-4 persistence"><!-- persistence -->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">15 July, 2022</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/persistence.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Persistence</h3>
+                            <p class="blog-one__text">Persistence is a Cosmos based Layer-1 powering an ecosystem of DeFi applications focused on unlocking the liquidity of staked assets.</p>
+                            </div>
+                            <div> <a class="blog-one__dev">Mainnet, 0% fee</a>
+                            <a  class="blog-one__btn" href="https://ping.pub/persistence/staking/persistencevaloper12czgp2x5xsq6tc2kv75ljxzl4vvtys53eyg0yj" target="blank" >Delegate</a>                                                 
+                            </div>
+                           
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
+
+
+                <div class="col-lg-4 namada"><!-- namada -->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">15 July, 2022</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/namada.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Namada</h3>
+                            <p class="blog-one__text">Namada is Anoma's first fractal instance,a step towards the multi-chain vision of homogeneous architecture for interchain privacy.</p>
+                            </div>
+                            <div> <a class="blog-one__dev">Testnet</a>
+                            <a  class="blog-one__btn" href="" target="blank" >N/A</a>                                                 
+                            </div>
+                           
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
+
 
                 <div class="col-lg-4 sentinel"><!-- Sentinel-->
                     <div class="blog-one__single">
@@ -275,23 +367,7 @@
                 </div><!-- /.col-lg-4 -->
 
                   
-                <div class="col-lg-4 avalanche"><!-- Avalanche -->
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-inner-block">
-                            <div class="blog-one__date">1 October, 2020</div><!-- /.blog-one__date -->
-                            <div class="blog-one__image">
-                            <img src="/images/avalanche.png" alt="">
-                            </div>
-                            <div>
-                            <h3 class="blog-one__title">Avalanche</h3>
-                            <p class="blog-one__text">Avalanche is the fastest smart contracts platform in the blockchain industry, as measured by time-to-finality with EVM compatibility.</p>
-                            </div>
-                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 10% fee</a>
-                            <a  target="_blank" class="blog-one__btn" v-on:click="avax_alert">Info</a>                             
-                            </div>
-                        </div><!-- /.blog-one__single-inner-block -->
-                    </div><!-- /.blog-one__single -->
-                </div><!-- /.col-lg-4 -->
+                
  
 
                 <div class="col-lg-4 gravity"><!-- Gravity -->

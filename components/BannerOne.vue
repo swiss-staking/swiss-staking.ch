@@ -25,12 +25,6 @@
           
 
               <div class="container">
-
-
-    
-
-
-
                   <div class="row">
                       <div class="col-lg-6">
                           <div class="banner-one__content">
@@ -38,7 +32,17 @@
                                   <div class="block-title__text type-append-body"><span>Get rewarded by</span><br> <span>staking your </span> <br> <span>crypto assets</span> </div><!-- /.block-title__text -->
                               </div><!-- /.block-title -->
                               <p class="banner-one__text">Swiss Staking is an ever-expanding proof-of-stake validator and venture fund based in Switzerland. We offer "Staking as a Service" and back the blockchain protocols of tomorrow. </p><!-- /.banner-one__text -->
-                            <a href="#networks" class="banner-one__btn">Get Started</a>
+                           
+                              <!-- /.getStarted <a href="#networks" class="banner-one__btn">Get Started</a>-->
+
+                            <div class="banner-one__btn_announcement">
+                              <i class=" fa fa-bullhorn"></i>
+                              <a class="banner-one__btn_announcement_title" > Announcing AZERO Validator</a>
+                              <br>
+                              <a class="banner-one__btn_announcement_text" target="blank" href="https://swiss-staking.medium.com/stake-your-azero-with-builders-38735ba2e449">Tutorial to assign your stake -></a>
+
+                            </div>
+                            
                               
                             <!-- FUN_FACT --> 
                            
