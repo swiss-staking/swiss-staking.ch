@@ -1518,6 +1518,32 @@ hr.style-one {
 }
 
 
+.blog-one [class*="col-lg-4 nolus"] .blog-one__date {
+  background-color: #f74c4c;
+}
+.blog-one [class*="col-lg-4 nolus"] .blog-one__author {
+  color: #f74c4c;
+}
+.blog-one [class*="col-lg-4 nolus"] .blog-one__single-inner-block:hover {
+  background-color: #f74c4c;
+}
+
+.blog-one [class*="col-lg-4 nolus"]  .blog-one__btn {
+  color: #f74c4c;
+  border-color: #f74c4c ;
+}
+
+.blog-one [class*="col-lg-4 nolus"] .blog-one__single-inner-block:hover .blog-one__date {
+  background-color: #fff;
+  color: #f74c4c;
+}
+.blog-one [class*="col-lg-4 nolus"] .blog-one__single-inner-block:hover .blog-one__title a,
+.blog-one [class*="col-lg-4 nolus"] .blog-one__single-inner-block:hover .blog-one__text,
+.blog-one [class*="col-lg-4 nolus"] .blog-one__single-inner-block:hover .blog-one__link,
+.blog-one [class*="col-lg-4 nolus"] .blog-one__single-inner-block:hover .blog-one__author {
+  color: #fff;
+}
+
 
 
 

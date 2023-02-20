@@ -57,7 +57,7 @@
                             <h3 class="blog-one__title">Aleph Zero</h3>
                             <p class="blog-one__text">Aleph Zero is a layer 1 privacy blockchain that ensures scalability, low transaction fees, and maximum security guarantees for developers.</p>
                             </div>
-                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 2% fee</a>
+                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 5% fee</a>
                             <a target="_blank" href ="https://alephzero.subscan.io/waiting/5FTsYv3dgJsjndE3ktF1Rp3rF6UjGybGW2mcYVuaFzfrC4Cv" class="blog-one__btn">Explorer</a>                           
                            
                             </div>
@@ -101,6 +101,25 @@
                             <a  target="_blank" class="blog-one__btn" v-on:click="obol_alert">Info</a>                             
                             </div>
                                     
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
+
+                <div class="col-lg-4 celestia"><!-- Celestia -->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">2023</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/celestia.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Celestia</h3>
+                            <p class="blog-one__text">Celestia is a modular consensus and data network, built to enable anyone to easily deploy their own blockchain with minimal overhead.</p>
+                            </div>
+                            <div class="blog__footer"><a class="blog-one__dev">Testnet</a>
+                            <a  class="blog-one__btn" href="" target="blank" >N/A</a>                                                 
+                            </div>
+                            
                         </div><!-- /.blog-one__single-inner-block -->
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
@@ -267,6 +286,25 @@
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
 
+                <div class="col-lg-4 nolus"><!-- Nolus -->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">2023</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/nolus.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Nolus</h3>
+                            <p class="blog-one__text">Nolus DeFi Lease provides up to 150% financing on the initial investment, with retained ownership over the leveraged assets.</p>
+                            </div>
+                            <div> <a class="blog-one__dev">Testnet</a>
+                            <a  class="blog-one__btn" href="" target="blank" >N/A</a>                                                 
+                            </div>
+                           
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
+
                 <div class="col-lg-4 injective"><!-- injective -->
                     <div class="blog-one__single">
                         <div class="blog-one__single-inner-block">
@@ -278,7 +316,7 @@
                             <h3 class="blog-one__title">Injective</h3>
                             <p class="blog-one__text">Injective is an open interoperable smart contracts layer-one blockchain network optimized for decentralized finance applications.</p>
                             </div>
-                            <div> <a class="blog-one__dev">Mainnet, 0% fee</a>
+                            <div> <a class="blog-one__dev">Mainnet, 2% fee</a>
                             <a  class="blog-one__btn" href="https://hub.injective.network/validators/injvaloper1r4lvwh0pmkmjewa76rem7ndr0z8zg3pseyfpux" target="blank" >Delegate</a>                                                 
                             </div>
                            
