@@ -103,7 +103,9 @@
           </section>
 </template>
 <script>
+import { Keplr } from '@keplr-wallet/cosmos';
 import countTo from 'vue-count-to';
+
   import { ObserveVisibility } from 'vue-observe-visibility'
   
     export default {
@@ -119,22 +121,22 @@ import countTo from 'vue-count-to';
       },
       async mounted() {
     try {
-
-
       //COMPUTE STAKING VALUE
       const data = await fetch("https://services.swiss-staking.ch:6677/stats")
       .then(stats => stats.json())
       .then(json => this.data = json);
       console.log(data)
-      
-
-     
       this.hasData = true
   
     } catch (err) {
-      console.log("haha")
+      console.log("cannot load swiss staking api data")
       this.error = err
     }
+
+      // Create an instance of Keplr wallet
+
+
+
   },
       methods: {
         async onVisibilityChange (isVisible) {

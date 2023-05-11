@@ -25,6 +25,45 @@
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
 
+                <div class="col-lg-4 sui"><!-- Sui-->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">3 May, 2023</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/sui.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Sui</h3>
+                            <p class="blog-one__text">Sui is a smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move language.</p>
+                            </div>
+                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 5% fee</a>
+                            <a target="_blank" href ="https://suiexplorer.com/validator/0xc21c40c94c712f17244d8518688dbaaa81ba232c15cb13dbba138ead55451e43?network=mainnet" class="blog-one__btn">Explorer</a>                           
+                           
+                            </div>
+                                     
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
+
+                <div class="col-lg-4 neutron"><!-- Neutron -->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">11 May, 2013</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/neutron.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Neutron</h3>
+                            <p class="blog-one__text">The most secure CosmWasm platform in Cosmos, Neutron lets smart-contracts leverage bleeding-edge Interchain technology.</p>
+                            </div>
+                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 1% fee</a>
+                            <a  class="blog-one__btn" href="https://www.mintscan.io/neutron/validators/neutronvaloper1y0us8xvsvfvqkk9c6nt5cfyu5au5tww2eaghws" target="blank" >Explorer</a>
+                            </div>
+                           
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
+
 
                 <div class="col-lg-4 nym"><!-- Nym-->
                     <div class="blog-one__single">
@@ -336,7 +375,7 @@
                             <h3 class="blog-one__title">Persistence</h3>
                             <p class="blog-one__text">Persistence is a Cosmos based Layer-1 powering an ecosystem of DeFi applications focused on unlocking the liquidity of staked assets.</p>
                             </div>
-                            <div> <a class="blog-one__dev">Mainnet, 0% fee</a>
+                            <div> <a class="blog-one__dev">Mainnet, 5% fee</a>
                             <a  class="blog-one__btn" href="https://ping.pub/persistence/staking/persistencevaloper12czgp2x5xsq6tc2kv75ljxzl4vvtys53eyg0yj" target="blank" >Delegate</a>                                                 
                             </div>
                            
@@ -363,48 +402,7 @@
                         </div><!-- /.blog-one__single-inner-block -->
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
-
-
-                <div class="col-lg-4 sentinel"><!-- Sentinel-->
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-inner-block">
-                            <div class="blog-one__date">1 June, 2021</div><!-- /.blog-one__date -->
-                            <div class="blog-one__image">
-                            <img src="/images/sentinel.png" alt="">
-                            </div>
-                            <div>
-                            <h3 class="blog-one__title">Sentinel</h3>
-                            <p class="blog-one__text">Sentinel's dVPN service allows a person to use the VPN service or help the VPN by sharing free, unused internet with other people in the network.</p>
-                            </div>
-                            <div><a class="blog-one__dev">Mainnet, 5% fee</a>
-                            <a href="https://ping.pub/sentinel/staking/sentvaloper1p96zfghgdcs6yv920qfhwn3wnzh9srewffkt5c" target="_blank" class="blog-one__btn">Delegate</a>                           
-                            </div>
-                                     
-                        </div><!-- /.blog-one__single-inner-block -->
-                    </div><!-- /.blog-one__single -->
-                </div><!-- /.col-lg-4 -->
-
-                <div class="col-lg-4 anoma"><!-- Anoma -->
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-inner-block">
-                            <div class="blog-one__date">1 November, 2021</div><!-- /.blog-one__date -->
-                            <div class="blog-one__image">
-                            <img src="/images/anoma.png" alt="">
-                            </div>
-                            <div>
-                            <h3 class="blog-one__title">Anoma</h3>
-                            <p class="blog-one__text">A sovereign, proof-of-stake blockchain protocol that enables private, asset-agnostic cash and private bartering among any number of parties.</p>
-                            </div>
-                            <div class="blog__footer"><a class="blog-one__dev">Testnet</a>
-                            <a target="_blank" class="blog-one__btn">N/A</a>                           
-                           
-                            </div>
-                                     
-                        </div><!-- /.blog-one__single-inner-block -->
-                    </div><!-- /.blog-one__single -->
-                </div><!-- /.col-lg-4 -->
-
-                  
+                 
                 
  
 
