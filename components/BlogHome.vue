@@ -48,7 +48,7 @@
                 <div class="col-lg-4 neutron"><!-- Neutron -->
                     <div class="blog-one__single">
                         <div class="blog-one__single-inner-block">
-                            <div class="blog-one__date">11 May, 2013</div><!-- /.blog-one__date -->
+                            <div class="blog-one__date">11 May, 2023</div><!-- /.blog-one__date -->
                             <div class="blog-one__image">
                             <img src="/images/neutron.png" alt="">
                             </div>
@@ -60,6 +60,26 @@
                             <a  class="blog-one__btn" href="https://www.mintscan.io/neutron/validators/neutronvaloper1y0us8xvsvfvqkk9c6nt5cfyu5au5tww2eaghws" target="blank" >Explorer</a>
                             </div>
                            
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
+
+                <div class="col-lg-4 noble"><!-- Noble-->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">1 April, 2023</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/noble.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Noble</h3>
+                            <p class="blog-one__text">The most reliable, secure, and frictionless way to natively issue a digital asset in Cosmos. Circle Stablecoin USDC To Launch on Cosmos.</p>
+                            </div>
+                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 10% fee</a>
+                            <a target="_blank" href ="https://www.mintscan.io/noble/validators/noblevaloper1u4weypldkggxm6hy57fngjny56p03eg95e7ahj" class="blog-one__btn">Explorer</a>                           
+                           
+                            </div>
+                                     
                         </div><!-- /.blog-one__single-inner-block -->
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
