@@ -19,7 +19,7 @@
                           <ul class="footer-widget__link-list">
                               <li><a>Swiss Staking AG</a></li>
                               <li><a >CHE-393.362.886</a></li>
-                              <li><a href="mailto:info@swiss-staking.ch">info@swiss-staking.ch</a></li>
+                              
                    
                           </ul><!-- /.footer-widget__link-list -->
                       </div><!-- /.footer-widget -->
@@ -32,26 +32,20 @@
                           </h3><!-- /.footer-widget__title -->
                           <ul class="footer-widget__link-list">
                               <li><a href="https://swiss-staking.medium.com/" target="_blank">Blog</a></li>
-                              <li><a href="https://twitter.com/@swiss_staking">Twitter</a></li>
-                              <li><a href="https://t.me/swissstaking" target="_blank">Telegram Community</a></li>
-                              <li><a href="https://t.me/swiss_staking" target="_blank">Telegram DM</a></li>
-                              <li><a href="">Terms of Service</a></li>
+                              <li><a href="https://twitter.com/@swiss_staking">X</a></li>
+
                           </ul><!-- /.footer-widget__link-list -->
                       </div><!-- /.footer-widget -->
                   </div><!-- /.col-lg-2 -->
                   <div class="col-lg-3 col-md-6 col-sm-12">
                       <div class="footer-widget">
                           <h3 class="footer-widget__title">
-                              Communities
+                              Contact
                           </h3><!-- /.footer-widget__title -->
                           <ul class="footer-widget__link-list">
-                              <li><a href="https://t.me/TezosDE" target="_blank">Tezos (German)</a></li>
-                              <li><a href="https://t.me/cosmosDE" target="_blank">Cosmos (German)</a></li>
-                              <li><a href="https://t.me/nymger" target="_blank">Nym (German)</a></li>
-                              <li><a href="https://t.me/EvmosOrg" target="_blank">Evmos (English)</a></li>
-                              <li><a href="https://t.me/EvmosDE" target="_blank">Evmos (German)</a></li>
-                              <li><a href="https://t.me/+TszFVcvKwIUJ5WUW" target="_blank">Bitcoin (German)</a></li>
-                              <li><a href="https://t.me/cryptozeals" target="_blank">Research Calls (German)</a></li>
+                            <li><a href="mailto:info@swiss-staking.ch">info@swiss-staking.ch</a></li>
+                            <li><a href="https://t.me/swissstaking" target="_blank">Telegram Community</a></li>
+                            <li><a href="https://t.me/swiss_staking" target="_blank">Telegram Direct Message</a></li>
                           </ul><!-- /.footer-widget__link-list -->
                       </div><!-- /.footer-widget -->
                   </div><!-- /.col-lg-3 -->
