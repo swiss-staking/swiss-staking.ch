@@ -35,11 +35,13 @@
                            
                               <!-- /.getStarted <a href="#networks" class="banner-one__btn">Get Started</a>-->
 
-                            <div class="banner-one__btn_announcement">
-                              <i class=" fa fa-bullhorn"></i>
-                              <a class="banner-one__btn_announcement_title" > Announcing AZERO Validator</a>
-                              <br>
-                              <a class="banner-one__btn_announcement_text" target="blank" href="https://swiss-staking.medium.com/stake-your-azero-with-builders-38735ba2e449">Tutorial to assign your stake -></a>
+                            <div class="banner-one__btn_announcement" >
+                              <a href="https://twitter.com/USERNAME" target="_blank" class="twitter-link" style="color:white">
+                                <i class=" fa fa-twitter" href="https://x.com/swiss_staking" target="_blank"></i>
+                              <a class="banner-one__btn_announcement_title" > Follow us on X </a>
+                            </a>
+                              <!-- <br>
+                              <a class="banner-one__btn_announcement_text" target="blank" href="https://swiss-staking.medium.com/stake-your-azero-with-builders-38735ba2e449">Tutorial to assign your stake -></a> -->
 
                             </div>
                             
@@ -83,20 +85,7 @@
                                         days of experience
                                     </p><!-- /.fun-fact-one__text -->
                                 </div><!-- /.inner-block -->
-                            </div><!-- /.fun-fact-one__single -->
-
-                            <div class="fun-fact-one__single">
-                                <div class="inner-block">
-                                    <h3 class="fun-fact-one__title counter">
-                                        <countTo v-if="hasData" :startVal='0' :endVal='startCounter ? data.total_ibc: 0' :duration='3000'></countTo>
-                                    </h3><!-- /.fun-fact-one__title -->
-                                    <p class="fun-fact-one__text">
-                                        ibc tx relayed
-                                    </p><!-- /.fun-fact-one__text -->
-                                </div><!-- /.inner-block -->
-                            </div><!-- /.fun-fact-one__single -->
-                            
-                            
+                            </div><!-- /.fun-fact-one__single -->                            
                         </div><!-- /.fun-fact-one_box-wrapper -->
                         <!-- END - FUN_FACT --> 
               </div><!-- /.container -->

@@ -5,6 +5,27 @@
                 <div class="block-title__text"><span>Evolutionary, revolutionary, and</span> <br> <span>everything in-between.</span></div><!-- /.block-title__text -->
             </div><!-- /.block-title -->
             <div class="row">
+
+                <div class="col-lg-4 dydx"><!-- dydx -->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">1 November, 2023</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/dydx.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">dYdX</h3>
+                            <p class="blog-one__text">dYdX is a leading decentralized exchange that supports perpetual trading. It runs on its own blockchain, and allows users to trade with no intermediaries.</p>
+                            </div>
+                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 5% fee</a>
+                            <a  class="blog-one__btn" href="https://wallet.keplr.app/chains/dydx?modal=validator&chain=dydx-mainnet-1&validator_address=dydxvaloper19wsh3g3d2vnx68zym4wpw0et2xnfwagzj5454u" target="blank" >Delegate</a>
+                            </div>
+                           
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
+
+                
                 
                 <div class="col-lg-4 cosmos"><!-- Cosmos -->
                     <div class="blog-one__single">
@@ -36,11 +57,30 @@
                             <h3 class="blog-one__title">Sui</h3>
                             <p class="blog-one__text">Sui is a smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move language.</p>
                             </div>
-                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 5% fee</a>
+                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 8% fee</a>
                             <a target="_blank" href ="https://suiexplorer.com/validator/0xc21c40c94c712f17244d8518688dbaaa81ba232c15cb13dbba138ead55451e43?network=mainnet" class="blog-one__btn">Explorer</a>                           
                            
                             </div>
                                      
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
+
+                <div class="col-lg-4 celestia"><!-- Celestia -->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">1 November, 2023</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/celestia.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Celestia</h3>
+                            <p class="blog-one__text">Celestia is a modular consensus and data network, built to enable anyone to easily deploy their own blockchain with minimal overhead.</p>
+                            </div>
+                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 5% fee</a>
+                            <a  class="blog-one__btn" href="https://wallet.keplr.app/chains/celestia?modal=validator&chain=celestia&validator_address=celestiavaloper1u4vhh70lwlt2va7hw5evzl6sap92t0m9nqzmud" target="blank" >Delegate</a>                                                 
+                            </div>
+                            
                         </div><!-- /.blog-one__single-inner-block -->
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
@@ -163,26 +203,6 @@
                         </div><!-- /.blog-one__single-inner-block -->
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
-
-                <div class="col-lg-4 celestia"><!-- Celestia -->
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-inner-block">
-                            <div class="blog-one__date">2023</div><!-- /.blog-one__date -->
-                            <div class="blog-one__image">
-                            <img src="/images/celestia.png" alt="">
-                            </div>
-                            <div>
-                            <h3 class="blog-one__title">Celestia</h3>
-                            <p class="blog-one__text">Celestia is a modular consensus and data network, built to enable anyone to easily deploy their own blockchain with minimal overhead.</p>
-                            </div>
-                            <div class="blog__footer"><a class="blog-one__dev">Testnet</a>
-                            <a  class="blog-one__btn" href="" target="blank" >N/A</a>                                                 
-                            </div>
-                            
-                        </div><!-- /.blog-one__single-inner-block -->
-                    </div><!-- /.blog-one__single -->
-                </div><!-- /.col-lg-4 -->
-
 
                 <div class="col-lg-4 osmosis"><!-- Osmosis -->
                     <div class="blog-one__single">
@@ -467,7 +487,7 @@
                 this.$alert("Our Avalanche node is full and currently held private. Please contact us for more details if you have any collabortation in mind.","Avalanche","warning");
             },
             eth_alert: function test(){
-                this.$alert("Ethereum does not support delegated proof-of-stake. If you are interested that we run a ETH 2.0 validator on your behalf, please contact us.");
+                this.$alert("If you are interested that we run a ETH 2.0 validator on your behalf, please contact us at info@swiss-staking.ch");
             },
             link_alert: function test(){
                 this.$alert("These nodes are ran by us for an institutional client. Additionally, Chainlink does not support staking yet. If you are interested in any collaboration regarding Chainlink, please contact us.");

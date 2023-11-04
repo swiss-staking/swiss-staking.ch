@@ -63,7 +63,7 @@
       </div><!-- /.site-footer__main-footer -->
       <div class="site-footer__bottom-footer text-center">
           <div class="container">
-              <p>&copy; copyright 2022 by <a href="#">Swiss Staking AG</a></p>
+              <p>&copy; copyright 2023 by <a href="#">Swiss Staking AG</a></p>
           </div><!-- /.container -->
       </div><!-- /.site-footer__bottom-footer -->
           </footer>
