@@ -36,9 +36,9 @@
                               <!-- /.getStarted <a href="#networks" class="banner-one__btn">Get Started</a>-->
 
                             <div class="banner-one__btn_announcement" >
-                              <a href="https://twitter.com/USERNAME" target="_blank" class="twitter-link" style="color:white">
-                                <i class=" fa fa-twitter" href="https://x.com/swiss_staking" target="_blank"></i>
-                              <a class="banner-one__btn_announcement_title" > Follow us on X </a>
+                              <a href="https://x.com/swiss_staking" target="_blank" class="twitter-link" style="color:white">
+                                <i class=" fa fa-twitter" target="_blank" style="color:white"></i>
+                              <a class="banner-one__btn_announcement_title"> Follow us on X </a>
                             </a>
                               <!-- <br>
                               <a class="banner-one__btn_announcement_text" target="blank" href="https://swiss-staking.medium.com/stake-your-azero-with-builders-38735ba2e449">Tutorial to assign your stake -></a> -->

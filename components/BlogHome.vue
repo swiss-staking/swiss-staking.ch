@@ -6,6 +6,27 @@
             </div><!-- /.block-title -->
             <div class="row">
 
+                <div class="col-lg-4 dym"><!-- dym -->
+                    <div class="blog-one__single">
+                        <div class="blog-one__single-inner-block">
+                            <div class="blog-one__date">10 Februrary, 2024</div><!-- /.blog-one__date -->
+                            <div class="blog-one__image">
+                            <img src="/images/dymension.png" alt="">
+                            </div>
+                            <div>
+                            <h3 class="blog-one__title">Dymension</h3>
+                            <p class="blog-one__text">Dymension is a home for easily deployable and lightning fast app-chains, called RollApps. Easily deploy your own consensus-free blockchain</p>
+                            </div>
+                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 5% fee</a>
+                            <a  class="blog-one__btn" href="https://wallet.keplr.app/chains/dymension?modal=validator&chain=dymension_1100-1&validator_address=dymvaloper1l6j00uq22yf09yxju8mkx4c2kk7a6h42w6sc8t" target="blank" >Delegate</a>
+                            </div>
+                           
+                        </div><!-- /.blog-one__single-inner-block -->
+                    </div><!-- /.blog-one__single -->
+                </div><!-- /.col-lg-4 -->
+
+
+
                 <div class="col-lg-4 dydx"><!-- dydx -->
                     <div class="blog-one__single">
                         <div class="blog-one__single-inner-block">
