@@ -24,28 +24,6 @@
                         </div><!-- /.blog-one__single-inner-block -->
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
-
-
-
-                <div class="col-lg-4 dydx"><!-- dydx -->
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-inner-block">
-                            <div class="blog-one__date">1 November, 2023</div><!-- /.blog-one__date -->
-                            <div class="blog-one__image">
-                            <img src="/images/dydx.png" alt="">
-                            </div>
-                            <div>
-                            <h3 class="blog-one__title">dYdX</h3>
-                            <p class="blog-one__text">dYdX is a leading decentralized exchange that supports perpetual trading. It runs on its own blockchain, and allows users to trade with no intermediaries.</p>
-                            </div>
-                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 5% fee</a>
-                            <a  class="blog-one__btn" href="https://wallet.keplr.app/chains/dydx?modal=validator&chain=dydx-mainnet-1&validator_address=dydxvaloper19wsh3g3d2vnx68zym4wpw0et2xnfwagzj5454u" target="blank" >Delegate</a>
-                            </div>
-                           
-                        </div><!-- /.blog-one__single-inner-block -->
-                    </div><!-- /.blog-one__single -->
-                </div><!-- /.col-lg-4 -->
-
                 
                 
                 <div class="col-lg-4 cosmos"><!-- Cosmos -->
@@ -59,7 +37,7 @@
                             <h3 class="blog-one__title">Cosmos</h3>
                             <p class="blog-one__text">The Cosmos Network is a decentralized network and the economic center of independent, scalable, and interoperable (IBC) blockchains.</p>
                             </div>
-                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 1% fee</a>
+                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 5% fee</a>
                             <a  class="blog-one__btn" href="https://ping.pub/cosmos/staking/cosmosvaloper1y0us8xvsvfvqkk9c6nt5cfyu5au5tww2ztve7q" target="blank" >Delegate</a>
                             </div>
                            
@@ -117,7 +95,7 @@
                             <h3 class="blog-one__title">Neutron</h3>
                             <p class="blog-one__text">The most secure CosmWasm platform in Cosmos, Neutron lets smart-contracts leverage bleeding-edge Interchain technology.</p>
                             </div>
-                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 1% fee</a>
+                            <div class="blog__footer"><a class="blog-one__dev">Mainnet, 5% fee</a>
                             <a  class="blog-one__btn" href="https://www.mintscan.io/neutron/validators/neutronvaloper1y0us8xvsvfvqkk9c6nt5cfyu5au5tww2eaghws" target="blank" >Explorer</a>
                             </div>
                            
@@ -323,30 +301,6 @@
                 </div><!-- /.col-lg-4 -->
 
 
-                
-
-                
-                <div class="col-lg-4 umee"><!-- Umee -->
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-inner-block">
-                            <div class="blog-one__date">21. December, 2021</div><!-- /.blog-one__date -->
-                            <div class="blog-one__image">
-                            <img src="/images/umee.png" alt="">
-                            </div>
-                            <div>
-                            <h3 class="blog-one__title">Umee</h3>
-                            <p class="blog-one__text">Umee connects users to create lending and borrowing positions, move capital across chains, discover new yield opportunities and explore DeFi applications.</p>
-                            </div>
-                            <div><a class="blog-one__dev">Mainnet, 2% fee</a>
-                            <a href="https://wallet.keplr.app/#/umee/stake?modal=stake&validator=umeevaloper19yy0u0ttam2p9k874vsh2u4tt7e6cmq8h2w9nv" target="_blank" class="blog-one__btn">Delegate</a>                     
-                           
-                            </div>
-                                     
-                        </div><!-- /.blog-one__single-inner-block -->
-                    </div><!-- /.blog-one__single -->
-                </div><!-- /.col-lg-4 -->
-
-
                 <div class="col-lg-4 tezos"><!-- Tezos -->
                     <div class="blog-one__single">
                         <div class="blog-one__single-inner-block">
@@ -405,25 +359,6 @@
                     </div><!-- /.blog-one__single -->
                 </div><!-- /.col-lg-4 -->
 
-                <div class="col-lg-4 injective"><!-- injective -->
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-inner-block">
-                            <div class="blog-one__date">22 August, 2022</div><!-- /.blog-one__date -->
-                            <div class="blog-one__image">
-                            <img src="/images/injective.png" alt="">
-                            </div>
-                            <div>
-                            <h3 class="blog-one__title">Injective</h3>
-                            <p class="blog-one__text">Injective is an open interoperable smart contracts layer-one blockchain network optimized for decentralized finance applications.</p>
-                            </div>
-                            <div> <a class="blog-one__dev">Mainnet, 2% fee</a>
-                            <a  class="blog-one__btn" href="https://hub.injective.network/validators/injvaloper1r4lvwh0pmkmjewa76rem7ndr0z8zg3pseyfpux" target="blank" >Delegate</a>                                                 
-                            </div>
-                           
-                        </div><!-- /.blog-one__single-inner-block -->
-                    </div><!-- /.blog-one__single -->
-                </div><!-- /.col-lg-4 -->
-
 
                 <div class="col-lg-4 persistence"><!-- persistence -->
                     <div class="blog-one__single">
@@ -467,26 +402,7 @@
                 
  
 
-                <div class="col-lg-4 gravity"><!-- Gravity -->
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-inner-block">
-                            <div class="blog-one__date">17. December, 2021</div><!-- /.blog-one__date -->
-                            <div class="blog-one__image">
-                            <img src="/images/gravity.png" alt="">
-                            </div>
-                            <div>
-                            <h3 class="blog-one__title">Gravity Bridge</h3>
-                            <p class="blog-one__text">Gravity will be able to bring ERC20 assets from Ethereum into Cosmos, as well as Cosmos assets to Ethereum ERC20 representations.</p>
-                            <br>
-                            </div>
-                            <div><a class="blog-one__dev">Mainnet, 5% Fee</a>
-                            <a href="https://www.mintscan.io/gravity-bridge/validators/gravityvaloper1z5nxs28a8krdhv6z6jw7gs5k6qr43xycr8wc6k" target="_blank" class="blog-one__btn">Delegate</a>                     
-
-                            </div>
-                                     
-                        </div><!-- /.blog-one__single-inner-block -->
-                    </div><!-- /.blog-one__single -->
-                </div><!-- /.col-lg-4 -->
+        
 
 
 
