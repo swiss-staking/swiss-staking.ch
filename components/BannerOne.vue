@@ -57,7 +57,7 @@
                             <div class="fun-fact-one__single">
                                 <div class="inner-block">
                                     <h3 class="fun-fact-one__title counter">
-                                        <countTo v-if="hasData" :startVal='0' :endVal='startCounter ? data.total_stake : 0' :duration='3000'></countTo>
+                                        <countTo v-if="hasData" :startVal='0' :endVal='startCounter ? 38540321 : 0' :duration='3000'></countTo>
                                     </h3><!-- /.fun-fact-one__title -->
                                     <p class="fun-fact-one__text">
                                         Staking Value $
@@ -68,7 +68,7 @@
                             <div class="fun-fact-one__single">
                                 <div class="inner-block">
                                     <h3 class="fun-fact-one__title counter">
-                                    <countTo v-if="hasData" :startVal='0' :endVal='startCounter ? data.total_delegators : 0' :duration='3000'>></countTo>
+                                    <countTo v-if="hasData" :startVal='0' :endVal='startCounter ? 43000 : 0' :duration='3000'>></countTo>
                                     </h3><!-- /.fun-fact-one__title -->
                                     <p class="fun-fact-one__text">
                                         clients
@@ -79,7 +79,7 @@
                             <div class="fun-fact-one__single">
                                 <div class="inner-block">
                                     <h3 class="fun-fact-one__title counter">
-                                        <countTo v-if="hasData" :startVal='0' :endVal='startCounter ? data.total_days: 0' :duration='3000'></countTo>
+                                        <countTo v-if="hasData" :startVal='0' :endVal='startCounter ? 1422 : 0' :duration='3000'></countTo>
                                     </h3><!-- /.fun-fact-one__title -->
                                     <p class="fun-fact-one__text">
                                         days of experience
